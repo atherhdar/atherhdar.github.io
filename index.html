@@ -66,13 +66,38 @@
 <head>
     <!-- Other meta tags and stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* CSS for navigation bar */
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 0.5rem;
+            overflow: hidden; /* Clear float */
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            float: left; /* Float navigation items to the left */
+        }
+        .icons {
+            float: right; /* Float icons to the right */
+        }
+        .icons a {
+            margin-left: 0.5rem; /* Add margin between icons */
+        }
+        .icons a i {
+            font-size: 1.5rem; /* Adjust icon size */
+        }
+        .name {
+            float: left; /* Float name to the left */
+        }
+    </style>
 </head>
 </head>
 <body>
      <nav>
-         <div class="name">
-            <span>Ather Hassan Dar</span> <!-- Your name -->
-        </div>
+    <span>Ather Hassan Dar</span> <!-- Your name -->
     <a href="index.html">Home</a>
     <a href="research.html">Research</a>
     <a href="teaching.html">Teaching</a>
