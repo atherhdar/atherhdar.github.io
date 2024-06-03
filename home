@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ather Hassan - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ather Hassan</h1>
+        <p>PhD Student, Department of Economic Sciences, IIT Kanpur</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#awards">Awards</a>
+        <a href="#cv">CV</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to my personal webpage. I am Ather Hassan, a PhD Student at the Department of Economic Sciences at IIT Kanpur. My broad research interest is in Applied Microeconomics. Currently, my research delves into understanding how exposure to various forms of violence affects human capital formation and family composition.</p>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on the following areas:</p>
+            <ul>
+                <li>Impact of violence on human capital formulation</li>
+                <li>Family composition and its economic implications</li>
+                <li>Applied microeconomic theories and their real-world applications</li>
+            </ul>
+            <p>Through my research, I aim to uncover insights that can inform policies to mitigate the adverse effects of violence on society.</p>
+        </section>
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <p>As a PhD student, I have had the opportunity to teach and assist in various courses. My teaching experience includes:</p>
+            <ul>
+                <li>Introduction to Microeconomics</li>
+                <li>Advanced Microeconomic Theory</li>
+                <li>Econometrics</li>
+            </ul>
+            <p>I am passionate about sharing knowledge and helping students understand complex economic concepts.</p>
+        </section>
+        <section id="awards">
+            <h2>Awards</h2>
+            <p>Throughout my academic career, I have received several awards and recognitions, including:</p>
+            <ul>
+                <li>Best Research Paper Award at XYZ Conference</li>
+                <li>Outstanding Teaching Assistant Award at IIT Kanpur</li>
+                <li>Scholarship for Academic Excellence from ABC Foundation</li>
+            </ul>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>You can download my CV <a href="cv.pdf" download>here</a>.</p>
+        </section>
+    </div>
+</body>
+</html>
