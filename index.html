@@ -7,6 +7,21 @@
     <!-- Include Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+    text-align: justify; /* Justify text alignment */
+}
+       header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+ 
         /* CSS for navigation bar */
         nav {
             background: #555;
@@ -32,6 +47,38 @@
         .name {
             float: left; /* Float name to the left */
         }
+    }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            width: 80%;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container img {
+            max-width: 40%;
+            height: auto;
+            margin-right: 2rem;
+        }
+        .content {
+            flex: 1;
+        }
+        .button {
+    background-color: #007BFF; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
     </style>
 </head>
 <body>
