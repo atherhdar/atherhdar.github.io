@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
             background-color: black;
-            color: #333;
+            color: #fff;
             text-align: justify; /* Justify text alignment */
         }
         header {
@@ -27,11 +27,32 @@
             color: #fff;
             padding: 0.5rem 0;
             text-align: center;
+            overflow: hidden; /* Clear float */
+        }
+        nav .name {
+            float: left; /* Float name to the left */
+            margin-left: 20px; /* Adjust margin for name */
+            font-size: 20px; /* Adjust font size for name */
+        }
+        nav .links {
+            float: none; /* Clear float for links */
+            display: inline-block; /* Make links display inline */
+            margin: 0 auto; /* Center links */
         }
         nav a {
             color: #fff;
             margin: 0 1rem;
             text-decoration: none;
+        }
+        .icons {
+            float: left; /* Float icons to the left */
+            margin-left: 20px; /* Adjust margin for icons */
+        }
+        .icons a {
+            margin-right: 1rem; /* Add margin between icons */
+        }
+        .icons a i {
+            font-size: 1.5rem; /* Adjust icon size */
         }
         .container {
             display: flex;
@@ -62,23 +83,11 @@
         .button:hover {
             background-color: #0056b3; /* Darker shade of blue on hover */
         }
-        .name {
-            float: left; /* Float name to the left */
-            font-size: 50px;
-        }
-        .icons {
-            float: left; /* Float icons to the left */
-        }
-        .icons a {
-            margin-right: 1rem; /* Add margin between icons */
-        }
-        .icons a i {
-            font-size: 1.5rem; /* Adjust icon size */
-        }
     </style>
 </head>
 <body>
     <nav>
+        <span class="name">ATHER HASSAN DAR</span>
         <div class="icons">
             <!-- Email icons with mailto links -->
             <a href="mailto:atherdar@iitk.ac.in"><i class="fas fa-envelope"></i></a>
@@ -88,9 +97,16 @@
             <!-- ResearchGate icon with link to ResearchGate profile -->
             <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><i class="fab fa-researchgate"></i></a>
         </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="awards.html">Awards</a>
+            <a href="cv.html">CV</a>
+        </div>
     </nav>
     <header>
-        <span class="name">ATHER HASSAN DAR</span>
+        <h1 style="font-size: 50px;">ATHER HASSAN DAR</h1>
     </header>
     <div class="container">
         <img src="photo.jpg" alt="Ather Hassan Dar">
