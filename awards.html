@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ather Hassan Dar- Home</title>
+    <title>Ather Hassan Dar</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: #333;
-    text-align: justify; /* Justify text alignment */
-}
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: black;
+            text-align: justify; /* Justify text alignment */
+        }
         header {
             background: #333;
             color: #fff;
@@ -25,11 +27,32 @@
             color: #fff;
             padding: 0.5rem 0;
             text-align: center;
+            overflow: hidden; /* Clear float */
+        }
+        nav .name {
+            float: left; /* Float name to the left */
+            margin-left: 20px; /* Adjust margin for name */
+            font-size: 20px; /* Adjust font size for name */
+        }
+        nav .links {
+            float: center; /* Clear float for links */
+            display: inline-block; /* Make links display inline */
+            margin: 0 auto; /* Center links */
         }
         nav a {
             color: #fff;
             margin: 0 1rem;
             text-decoration: none;
+        }
+        .icons {
+            float: right; /* Float icons to the left */
+            margin-right: 20px; /* Adjust margin for icons */
+        }
+        .icons a {
+            margin-right: 1rem; /* Add margin between icons */
+        }
+        .icons a i {
+            font-size: 1.5rem; /* Adjust icon size */
         }
         .container {
             display: flex;
@@ -49,33 +72,38 @@
             flex: 1;
         }
         .button {
-    background-color: #007BFF; /* Blue color */
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    font-size: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #0056b3; /* Darker shade of blue on hover */
-}
-
+            background-color: #007BFF; /* Blue color */
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3; /* Darker shade of blue on hover */
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Ather Hassan Dar</h1>
-        <p>Department of Economic Sciences, Indian Institute of Technology Kanpur </p> 
-    </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="awards.html">Awards</a>
-        <a href="cv.html">CV</a>
-    </nav>
+        <span class="name">Ather Hassan Dar</span>
+        <div class="icons">
+            <!-- Email icons with mailto links -->
+            <a href="mailto:atherdar@iitk.ac.in"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:ather.iitk@gmail.com"><i class="fas fa-envelope"></i></a>
+            <!-- Twitter icon with link to Twitter profile -->
+            <a href="https://twitter.com/atherhdar"><i class="fab fa-twitter"></i></a>
+            <!-- ResearchGate icon with link to ResearchGate profile -->
+            <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><i class="fab fa-researchgate"></i></a>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="awards.html">Awards</a>
+            <a href="cv.html">CV</a>
+        </div>
     <div class="container">
         <section id="awards">
             <h2>Awards</h2>
