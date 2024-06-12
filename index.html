@@ -58,7 +58,6 @@
         }
         .container {
             display: flex;
-            flex-wrap: wrap; /* Ensure items wrap on small screens */
             align-items: flex-start;
             width: 80%;
             margin: 2rem auto;
@@ -67,13 +66,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .container img {
-            max-width: 40%;
+            max-width: auto;
             height: 500px;
             margin-right: 2rem;
-            
         }
         .content {
-            flex: 1; 
+            flex: 1;
         }
         .button {
             background-color: #007BFF; /* Blue color */
@@ -86,38 +84,6 @@
         }
         .button:hover {
             background-color: #0056b3; /* Darker shade of blue on hover */
-        }
-        /* Media Queries */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column; /* Stack items vertically on small screens */
-                align-items: center;
-            }
-            .container img {
-                margin: 0 0 1rem 0; /* Adjust margin for smaller screens */
-                flex-wrap: wrap; /* Ensure items wrap on small screens */
-            }
-            .content {
-                flex: none; /* Disable flex resizing */
-            }
-            nav .name {
-                float: none; /* Center name */
-                display: block; /* Ensure block display */
-                margin: 0 auto 1rem; /* Center with margin */
-            }
-            nav .links {
-                display: block; /* Display links as block */
-                text-align: center; /* Center links */
-            }
-            nav .icons {
-                float: none; /* Center icons */
-                display: block; /* Ensure block display */
-                text-align: center; /* Center icons */
-            }
-            nav .icons a {
-                display: inline-block; /* Inline display for icons */
-                margin-right: 0.5rem; /* Adjust margin */
-            }
         }
     </style>
 </head>
