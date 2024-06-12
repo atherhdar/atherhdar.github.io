@@ -66,7 +66,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .container img {
-            max-width: 600px;
+            max-width: 40%;
             height: auto;
             margin-right: 2rem;
         }
@@ -85,6 +85,23 @@
         .button:hover {
             background-color: #0056b3; /* Darker shade of blue on hover */
         }
+        
+        <link rel="stylesheet" href="print.css" media="print">
+@media print {
+  /* print style sheets go here */
+}
+@media (query) {
+  /* CSS Rules used when query matches */
+}
+        <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<style>
+  @media (min-width: 500px) and (max-width: 600px) {
+    h1 {
+      color: blue;
+    }
     </style>
 </head>
 <body>
