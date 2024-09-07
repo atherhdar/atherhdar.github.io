@@ -9,20 +9,20 @@
 theme: jekyll-theme-minimal
 minimal_mistakes_skin: "mint" 
 
-logo                     : /photo_website.png
-title                    : "Beate Thies"
+logo                     : /photo_website.jpeg
+title                    : "Ather Hassan Dar"
 title_separator          : "-"
-name                     : &name "Beate Thies"
-masthead_title:             "Beate Thies"
+name                     : &name "Ather Hassan Dar"
+masthead_title:             "Ather Hassan Dar"
 
 github:
   is\_project\_page: false
 
 # Site Author
 author:
-  name             : "Beate Thies"
+  name             : "Ather Hassan Dar"
   bio              : #"Your biography for the left-hand sidebar"
-  location         : "University of Mannheim"
+  location         : "IIT Kanpur"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@BeateThies"
+  twitter          : "@atherhdar"
   vine             :
   weibo            :
   xing             :
