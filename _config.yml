@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+theme: jekyll-theme-minimal
+minimal_mistakes_skin: "mint" 
+
+logo                     : /pic.png
+title                    : "Ather Hassan Dar"
+title_separator          : "-"
+name                     : &name "Ather Hassan Dar"
+masthead_title:             "Ather Hassan Dar"
+
+github:
+  is\_project\_page: false
+
+# Site Author
+author:
+  name             : "Ather Hassan Dar"
+  bio              : #"Your biography for the left-hand sidebar"
+  location         : "IIT Kanpur"
+  employer         :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"
+  email            : "atherhdar@gmail.com"
+  researchgate     :  "https://www.researchgate.net/profile/Ather-Hassan-Dar"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "atherhdar"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  LinkedIn         : "https://in.linkedin.com/in/atherhdar"
+  orcid            : #"http://orcid.org/yourorcidurl"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "@atherhdar"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+# Analytics
+#analytics:
+#  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id          :
