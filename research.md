@@ -1,5 +1,5 @@
 ### WORKING PAPERS
-**Informal financial institutions and crime: Evidence from ROSCAs in India**  (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](sites.gogle.com/view/sounakthakur)*)
+**Informal financial institutions and crime: Evidence from ROSCAs in India**  (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](sites.google.com/view/sounakthakur)* )
 <details>    
 <summary><kbd style="background-color: #e0e0e0"> Abstract </kbd> (<em>Submitted</em>) </summary>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 
