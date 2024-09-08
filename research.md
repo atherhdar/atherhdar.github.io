@@ -1,4 +1,4 @@
-<p class="right-text">**[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px;text-align: right;"> HOME </kbd>](README.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px;text-align: right;"> TEACHING </kbd>](teaching.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; text-align:right;"> AWARDS </kbd>](awards.md)**</p>
+<p text-align:right-text> **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px;text-align: right;"> HOME </kbd>](README.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px;text-align: right;"> TEACHING </kbd>](teaching.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; text-align:right;"> AWARDS </kbd>](awards.md)**</p>
 ### WORKING PAPERS
 **Informal financial institutions and crime: Evidence from ROSCAs in India**  (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
 <details>    
