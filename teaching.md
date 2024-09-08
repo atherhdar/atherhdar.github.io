@@ -23,7 +23,7 @@ Fall 2022-23; Fall 2023-24</li>
 Summer 2020-21</li>
 <li> Game Theory
    Fall 2024-25
-</li>
+</li> <br>
 
 **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> HOME </kbd>](README.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> RESEARCH </kbd>](research.md)**  **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> AWARDS </kbd>](awards.md)**
 
