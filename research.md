@@ -7,8 +7,6 @@
 We investigate the impact of access to informal finance on crime in India. Using within-household variation in membership in a popular informal financial institution (Rotating Savings and Credit Associations (ROSCAs)) in a nationally representative panel of households, we find that membership is associated with a higher probability of victimization in property crimes and heightened perception of the incidence of crimes against women in the neighborhood. This is plausibly driven by the “loot effect”: ROSCAs lead to more household assets, thus making members more attractive targets. Moreover, ROSCAs also lead to greater mobility for women and increases their chance of participating in the labor market. </div>
 </details>
 
- <br/>
- 
 **Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https:www.sites.google.come/view/sounakthakur)*) [JMP]
 
 <details>
