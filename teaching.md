@@ -4,7 +4,7 @@
 
 ### TEACHING EXPERIENCE
 As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist in various courses. My teaching experience includes: 
-</br>
+<br>
 **Tutoring** 
 <li> Program Evaluation
    @IIT Kanpur (E-Masters)        Fall 2023-24 </li>
