@@ -19,7 +19,7 @@ We study the effect of civil unrest on learning outcomes of schoolgoing children
 </details>
 <br/>
 ### Work in Progress
-**Alcohol prohibition, home environment and learning: Evidence from India** (*with [Deeksha](), [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/) and [Sarani Saha](https://iitk.ac.in/new/sarani-saha#)*)
+**Alcohol prohibition, home environment and learning: Evidence from India** (*with Deeksha, [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/) and [Sarani Saha](https://iitk.ac.in/new/sarani-saha#)*)
 <details>
 <summary><kbd style="background-color: #e0e0e0"> Abstract</kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902">Paper</a></kbd></summary>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;text-align: justify;"> 
