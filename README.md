@@ -11,7 +11,7 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
 
 **Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
 
-### MENU
+### Menu
 **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> RESEARCH </kbd>](research.md)** &nbsp; &nbsp; &nbsp; **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> TEACHING </kbd>](teaching.md)** &nbsp; &nbsp; &nbsp; **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> AWARDS </kbd>](awards.md)**
 
 
