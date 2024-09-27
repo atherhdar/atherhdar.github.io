@@ -11,11 +11,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-  </head>
-  <body>
     <style>
       body {
-        background-color: #ebf4fa; /* Change to your preferred background color */
+        background-color: #ebf4fa;
       }
       p {
         text-align: justify;
@@ -23,47 +21,94 @@
       .center-text {
         text-align: center;
       }
+
+      /* Style the navigation bar */
       nav {
         position: fixed;
         top: 0;
         left: 0;
         padding: 10px 15px;
-        background-color: transparent; /* No background color, text only */
-        width: 100%; /* Makes sure it spans the full width */
-        z-index: 1000; /* Ensure it stays on top of other elements */
+        background-color: transparent;
+        width: 100%;
+        z-index: 1000;
       }
       nav a {
-        color: #333; /* Text color */
+        color: #333;
         margin-right: 15px;
         text-decoration: none;
-        font-size: 10pt; /* Reduced font size */
+        font-size: 10pt;
         font-weight: bold;
       }
       nav a:hover {
         text-decoration: underline;
       }
-      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
-      header {
-        margin-top: 50px;
+
+      /* Toggle menu button for mobile */
+      .menu-icon {
+        display: none;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      /* Hide the navigation links for mobile */
+      .nav-links {
+        display: flex;
+      }
+
+      @media screen and (max-width: 600px) {
+        nav {
+          position: relative;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          background-color: #f9f9f9;
+          width: 100%;
+          position: absolute;
+          top: 45px;
+          left: 0;
+          z-index: 1000;
+        }
+        nav a {
+          padding: 10px;
+          border-bottom: 1px solid #ddd;
+          width: 100%;
+          text-align: left;
+        }
+        .menu-icon {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 15px;
+        }
       }
     </style>
+  </head>
+  <body>
+    <script>
+      function toggleMenu() {
+        var x = document.getElementById("navLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
 
     <div class="wrapper">
-      <!-- Static Navigation Bar at the extreme top-left -->
+      <!-- Static Navigation Bar with dropdown for mobile -->
       <nav>
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/research">Research</a>
-        <a href="{{ site.baseurl }}/teaching">Teaching</a>
-        <a href="{{ site.baseurl }}/awards">Awards</a>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- This is the menu icon (hamburger) -->
+        <div id="navLinks" class="nav-links">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/research">Research</a>
+          <a href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a href="{{ site.baseurl }}/awards">Awards</a>
+        </div>
       </nav>
 
       <header>
-        <!-- Removed the h1 tag displaying the name from the navigation area -->
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
