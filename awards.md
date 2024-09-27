@@ -18,4 +18,3 @@
 </ol>
 <br>
 
-**[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> HOME </kbd>](README.md)** &nbsp; &nbsp; &nbsp; **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> RESEARCH </kbd>](research.md)** &nbsp; &nbsp; &nbsp; **[<kbd style="background-color: #7986cb; color: #ffffff; font-size:1em; padding: 5px; align: right;"> TEACHING </kbd>](teaching.md)**
