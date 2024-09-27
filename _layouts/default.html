@@ -26,16 +26,15 @@
       nav {
         position: absolute;
         top: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
+        left: 0;
+        padding: 10px 15px;
         background-color: transparent; /* No background color, text only */
       }
       nav a {
         color: #333; /* Text color */
-        margin: 0 15px;
+        margin-right: 15px;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 10pt; /* Reduced font size */
         font-weight: bold;
       }
       nav a:hover {
@@ -44,7 +43,7 @@
     </style>
 
     <div class="wrapper">
-      <!-- Navigation Bar at the extreme top -->
+      <!-- Navigation Bar at the extreme top-left -->
       <nav>
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/research">Research</a>
