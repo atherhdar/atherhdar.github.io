@@ -24,9 +24,6 @@
 
       /* Style the navigation bar */
       nav {
-        position: fixed;
-        top: 0;
-        left: 0;
         padding: 10px 15px;
         background-color: transparent;
         width: 100%;
@@ -43,18 +40,19 @@
         text-decoration: underline;
       }
 
-      /* Toggle menu button for mobile */
+      /* Mobile menu icon */
       .menu-icon {
         display: none;
         font-size: 20px;
         cursor: pointer;
       }
 
-      /* Hide the navigation links for mobile */
+      /* Hide the navigation links initially for mobile */
       .nav-links {
         display: flex;
       }
 
+      /* Mobile view: hide the menu links and show the hamburger icon */
       @media screen and (max-width: 600px) {
         nav {
           position: relative;
@@ -67,7 +65,6 @@
           position: absolute;
           top: 45px;
           left: 0;
-          z-index: 1000;
         }
         nav a {
           padding: 10px;
@@ -78,9 +75,14 @@
         .menu-icon {
           display: block;
           position: absolute;
-          top: 0;
+          top: 10px;
           right: 15px;
         }
+      }
+
+      /* Prevent content from overlapping with the navigation bar */
+      header {
+        margin-top: 50px;
       }
     </style>
   </head>
@@ -104,7 +106,6 @@
           <a href="{{ site.baseurl }}/">Home</a>
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
-          <a href="{{ site.baseurl }}/awards">Awards</a>
         </div>
       </nav>
 
