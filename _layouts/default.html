@@ -28,12 +28,12 @@
         top: 0;
         left: 0;
         padding: 10px 15px;
-        background-color: black; /* No background color, text only */
+        background-color: transparent; /* No background color, text only */
         width: 100%; /* Makes sure it spans the full width */
         z-index: 1000; /* Ensure it stays on top of other elements */
       }
       nav a {
-        color: white; /* Text color */
+        color: #333; /* Text color */
         margin-right: 15px;
         text-decoration: none;
         font-size: 10pt; /* Reduced font size */
@@ -54,11 +54,10 @@
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/research">Research</a>
         <a href="{{ site.baseurl }}/teaching">Teaching</a>
-        <a href="{{ site.baseurl }}/awards">Awards</a>
       </nav>
 
       <header>
-        <h1><a href="{{ site.github.repository_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!-- Removed the h1 tag displaying the name from the navigation area -->
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
