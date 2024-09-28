@@ -7,9 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
     <style>
       body {
         background-color: #ebf4fa;
+        margin: 0;
       }
       p {
         text-align: justify;
@@ -18,7 +25,7 @@
         text-align: center;
       }
 
-      /* Main Navigation */
+      /* Main styles for navigation */
       nav {
         display: flex;
         justify-content: space-between;
@@ -30,76 +37,81 @@
         background-color: #dbe2e6;
         width: 100%;
         z-index: 1000;
+        box-sizing: border-box;
       }
+
       .nav-left {
         font-size: 14pt;
-        font-weight: bold;
-        font-family: 'Cinzel Decorative', serif;
+        font-family: 'Cinzel Decorative', sans-serif;
       }
+
       .nav-right {
         display: flex;
         gap: 15px;
       }
+
       .nav-right a {
         color: #333;
         text-decoration: none;
         font-size: 10pt;
         font-weight: bold;
       }
+
       .nav-right a:hover {
         text-decoration: underline;
       }
 
-      /* Space between navigation and content */
+      /* Header adjustment */
       header {
-        margin-top: 70px; 
+        margin-top: 80px; /* Ensure enough space below navigation panel */
+        text-align: center;
       }
 
-      /* Dropdown for small screens */
-      @media screen and (max-width: 768px) {
+      /* Responsive dropdown for mobile screens */
+      .dropdown {
+        display: none;
+        flex-direction: column;
+        background-color: #dbe2e6;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        width: 150px;
+      }
+
+      .dropdown a {
+        padding: 10px;
+        text-align: left;
+      }
+
+      .hamburger {
+        display: none;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      /* Show dropdown for small screens */
+      @media (max-width: 768px) {
         .nav-right {
-          display: none; /* Hide the navigation links on small screens */
+          display: none;
         }
+
         .hamburger {
           display: block;
-          font-size: 24px;
-          cursor: pointer;
         }
+
         .dropdown {
-          display: none;
-          flex-direction: column;
-          position: absolute;
-          right: 15px;
-          top: 50px;
-          background-color: #dbe2e6;
-          width: 100%;
-        }
-        .dropdown a {
-          padding: 10px;
-          text-align: center;
-          border-bottom: 1px solid #ccc;
-        }
-        .dropdown a:hover {
-          background-color: #ccc;
-        }
-        /* Display dropdown when hamburger is clicked */
-        .dropdown.show {
           display: flex;
         }
       }
 
-      @media screen and (min-width: 769px) {
-        .hamburger {
-          display: none; /* Hide the hamburger menu on larger screens */
-        }
-        .dropdown {
-          display: none; /* Ensure dropdown doesn't appear on large screens */
-        }
+      /* Ensure image appears properly */
+      .profile-img {
+        max-width: 100%;
+        height: auto;
       }
     </style>
-  </head>
 
-  <body>
     <div class="wrapper">
       <!-- Static Navigation Bar -->
       <nav>
@@ -110,9 +122,7 @@
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
         </div>
-        <!-- Hamburger icon for small screens -->
-        <div class="hamburger" onclick="toggleDropdown()">&#9776;</div>
-        <!-- Dropdown menu for small screens -->
+        <div class="hamburger" onclick="toggleDropdown()">☰</div>
         <div class="dropdown" id="dropdown-menu">
           <a href="{{ site.baseurl }}/">Home</a>
           <a href="{{ site.baseurl }}/research">Research</a>
@@ -122,6 +132,11 @@
       </nav>
 
       <header>
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-img" />
+        {% endif %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -129,7 +144,13 @@
             Department of Economic Sciences<br>
             Indian Institute of Technology, Kanpur<br>
             Uttar Pradesh, India
-          </p>
+          </p><br>
+          <a href="https://atherhdar.github.io/CV.pdf"><img src="cv_icon.png" style="width:18px;height:18px;"> </a> &nbsp;
+          <a href="mailto:atherhdar@gmail.com"><img src="email.png" style="width:18px;height:18px;"> </a> &nbsp;
+          <a href="https://in.linkedin.com/in/atherhdar"><img src="linkedin.png" style="width:18px;height:18px;"> </a> &nbsp;
+          <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><img src="rg.png" style="width:18px;height:18px;"> </a> &nbsp;
+          <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:18px;height:18px;"> </a> &nbsp;
+          <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:18px;height:18px;"> </a>
         </center>
       </header>
 
@@ -146,8 +167,12 @@
 
     <script>
       function toggleDropdown() {
-        var dropdown = document.getElementById('dropdown-menu');
-        dropdown.classList.toggle('show');
+        const dropdown = document.getElementById('dropdown-menu');
+        if (dropdown.style.display === 'flex') {
+          dropdown.style.display = 'none';
+        } else {
+          dropdown.style.display = 'flex';
+        }
       }
     </script>
   </body>
