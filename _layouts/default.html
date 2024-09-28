@@ -30,9 +30,10 @@
         position: fixed;
         top: 0;
         left: 0;
+        right: 0;
         padding: 10px 15px;
         background-color: #dbe2e6;
-        width: 100%; /* Adjusts to screen width */
+        box-sizing: border-box; /* Ensures padding is within screen limits */
         z-index: 1000;
       }
       .nav-left {
@@ -43,6 +44,7 @@
       .nav-right {
         display: flex;
         gap: 15px;
+        white-space: nowrap;
       }
       .nav-right a {
         color: #333;
@@ -54,7 +56,7 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 80px; /* Restoring vertical space */
+        margin-top: 90px; /* Increased vertical space */
       }
       /* Responsive Design */
       @media (max-width: 768px) {
