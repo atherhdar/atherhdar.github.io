@@ -25,23 +25,26 @@
       }
       nav {
         display: flex;
-        justify-content: space-between; /* Space between the name and the navigation links */
+        justify-content: space-between;
         align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         padding: 10px 15px;
-        background-color: #dbe2e6; /* Background color for navigation bar */
-        width: 100%;
+        background-color: #dbe2e6;
+        width: calc(100% - 1cm); /* Ensures it stays within the margins */
         z-index: 1000;
       }
       .nav-left {
         font-size: 14pt;
         font-weight: bold;
       }
+      .nav-right {
+        display: flex;
+        gap: 15px;
+      }
       .nav-right a {
         color: #333;
-        margin-left: 15px;
         text-decoration: none;
         font-size: 10pt;
         font-weight: bold;
