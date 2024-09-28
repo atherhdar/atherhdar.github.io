@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
     <title>Ather Hassan Dar</title>
@@ -24,22 +24,29 @@
         text-align: center;
       }
       nav {
+        display: flex;
+        justify-content: space-between; /* Space between the name and the navigation links */
+        align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         padding: 10px 15px;
-        background-color: #dbe2e6; /* No background color, text only */
-        width: 100%; /* Makes sure it spans the full width */
-        z-index: 1000; /* Ensure it stays on top of other elements */
+        background-color: #dbe2e6; /* Background color for navigation bar */
+        width: 100%;
+        z-index: 1000;
       }
-      nav a {
-        color: #333; /* Text color */
-        margin-right: 15px;
-        text-decoration: none;
-        font-size: 10pt; /* Reduced font size */
+      .nav-left {
+        font-size: 14pt;
         font-weight: bold;
       }
-      nav a:hover {
+      .nav-right a {
+        color: #333;
+        margin-left: 15px;
+        text-decoration: none;
+        font-size: 10pt;
+        font-weight: bold;
+      }
+      .nav-right a:hover {
         text-decoration: underline;
       }
       /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
@@ -49,16 +56,18 @@
     </style>
 
     <div class="wrapper">
-      <!-- Static Navigation Bar at the extreme top-left -->
+      <!-- Static Navigation Bar -->
       <nav>
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/research">Research</a>
-        <a href="{{ site.baseurl }}/teaching">Teaching</a>
-	<a href="{{ site.baseurl }}/awards">Awards</a>
+        <div class="nav-left">Ather Hassan Dar</div>
+        <div class="nav-right">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/research">Research</a>
+          <a href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a href="{{ site.baseurl }}/awards">Awards</a>
+        </div>
       </nav>
 
       <header>
-        <!-- Removed the h1 tag displaying the name from the navigation area -->
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
