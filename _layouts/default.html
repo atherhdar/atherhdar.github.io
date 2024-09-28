@@ -36,30 +36,34 @@
         background-color: #dbe2e6;
         width: 100%;
         z-index: 1000;
+        box-sizing: border-box; /* Ensure padding doesn't overflow */
       }
       .nav-left {
-        font-size: 14pt; /* Reduced font size as per your request */
+        font-size: 14pt;
         font-weight: bold;
-        font-family: 'Cinzel Decorative', serif; /* Cinzel Decorative font */
+        font-family: 'Cinzel Decorative', serif;
+        white-space: nowrap; /* Prevents text from wrapping */
       }
       .nav-right {
         display: flex;
-        gap: 10px; /* Reduced the gap between the navigation links */
+        gap: 10px; /* Keeps the gap between links small */
+        flex-wrap: nowrap; /* Prevents wrapping of navigation items */
         margin-left: auto;
-        flex-wrap: nowrap; /* Ensures that the items don't wrap and overflow */
+        overflow-x: hidden; /* Prevent overflow */
       }
       .nav-right a {
         color: #333;
         text-decoration: none;
         font-size: 10pt;
         font-weight: bold;
+        white-space: nowrap; /* Prevents text wrapping */
       }
       .nav-right a:hover {
         text-decoration: underline;
       }
-      /* Add margin-top to the header to prevent overlap */
+      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
       header {
-        margin-top: 50px;
+        margin-top: 60px;
       }
     </style>
 
