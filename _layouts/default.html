@@ -12,14 +12,14 @@
     <![endif]-->
     {% include head-custom.html %}
     <style>
+      /* General styles */
       body {
-        background-color: #ebf4fa; /* Default light mode background color */
-        color: #333;
-        transition: background-color 0.3s, color 0.3s;
+        background-color: #ebf4fa; /* Default background color (light mode) */
+        transition: background-color 0.3s ease, color 0.3s ease;
       }
       body.dark-mode {
-        background-color: #121212; /* Dark mode background */
-        color: #f1f1f1; /* Light text in dark mode */
+        background-color: #1e1e1e; /* Dark mode background */
+        color: #ffffff;
       }
       p {
         text-align: justify;
@@ -45,7 +45,6 @@
       }
       .nav-right {
         display: flex;
-        align-items: center;
         gap: 15px;
       }
       .nav-right a {
@@ -57,78 +56,50 @@
       .nav-right a:hover {
         text-decoration: underline;
       }
-      /* Dark mode toggle button */
-      .dark-mode-toggle {
+      header {
+        margin-top: 50px;
+      }
+      .icon {
         cursor: pointer;
-        padding: 5px 10px;
-        border: 1px solid #333;
-        background-color: #fff;
-        color: #333;
-        font-size: 10pt;
-        font-weight: bold;
-        border-radius: 5px;
+        width: 20px;
+        height: 20px;
       }
-      .dark-mode-toggle:hover {
-        background-color: #333;
-        color: #fff;
+      /* Dark mode styles */
+      .dark-mode-toggle {
+        filter: invert(1);
       }
-      /* Search modal styling */
-      #searchModal {
-        display: none; /* Hidden by default */
+      /* Search popup styles */
+      #search-popup {
+        display: none;
         position: fixed;
-        z-index: 1001;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-      }
-      #searchModal .modal-content {
-        position: relative;
-        margin: 10% auto;
-        padding: 20px;
-        width: 50%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
         background-color: #fff;
-        border-radius: 8px;
-        color: #333;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 2000;
       }
-      #searchModal input[type="text"] {
-        width: 80%;
+      #search-popup input {
+        width: 100%;
         padding: 10px;
-        margin-right: 10px;
+        margin-bottom: 10px;
         font-size: 14px;
       }
-      #searchModal button {
+      #search-popup button {
+        width: 100%;
         padding: 10px;
-        font-size: 14px;
         background-color: #333;
         color: #fff;
         border: none;
         cursor: pointer;
       }
-      #searchModal button:hover {
-        background-color: #555;
-      }
-      /* Dark mode modal adjustments */
-      body.dark-mode #searchModal .modal-content {
-        background-color: #1e1e1e;
-        color: #fff;
-      }
-      header, footer, section {
-        transition: background-color 0.3s, color 0.3s;
-      }
-      body.dark-mode header, body.dark-mode footer, body.dark-mode section {
-        background-color: #1e1e1e;
-        color: #f1f1f1;
-      }
-      header {
-        margin-top: 60px;
-      }
     </style>
   </head>
   <body>
     <div class="wrapper">
-      <!-- Static Navigation Bar -->
+      <!-- Navigation Bar -->
       <nav>
         <div class="nav-left">Ather Hassan Dar</div>
         <div class="nav-right">
@@ -136,33 +107,18 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-
-          <!-- Search Button -->
-          <button class="search-button" onclick="openSearch()">Search</button>
-
-          <!-- Dark mode toggle -->
-          <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+          <!-- Search icon -->
+          <img class="icon" src="search_icon.png" alt="Search" onclick="openSearchPopup()">
+          <!-- Dark mode toggle icon -->
+          <img class="icon dark-mode-toggle" src="dark_mode_icon.png" alt="Dark Mode" onclick="toggleDarkMode()">
         </div>
       </nav>
-
-      <!-- Search Modal -->
-      <div id="searchModal">
-        <div class="modal-content">
-          <h2>Search the Website</h2>
-          <form action="/search" method="get">
-            <input type="text" name="q" placeholder="Enter your search term">
-            <button type="submit">Search</button>
-          </form>
-          <button onclick="closeSearch()">Close</button>
-        </div>
-      </div>
 
       <header>
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -184,6 +140,12 @@
         {{ content }}
       </section>
 
+      <!-- Search Popup -->
+      <div id="search-popup">
+        <input type="text" id="search-query" placeholder="Enter search term">
+        <button onclick="searchSite()">Search</button>
+      </div>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -191,24 +153,23 @@
       </footer>
     </div>
 
-    <!-- JavaScript for Dark Mode and Search Modal -->
     <script>
-      // Toggle dark mode
+      // Function to open search popup
+      function openSearchPopup() {
+        document.getElementById('search-popup').style.display = 'block';
+      }
+
+      // Function to search the website (placeholder functionality)
+      function searchSite() {
+        var query = document.getElementById('search-query').value;
+        alert('Searching for: ' + query);
+        // Implement actual search functionality if needed
+      }
+
+      // Dark mode toggle
       function toggleDarkMode() {
         document.body.classList.toggle('dark-mode');
       }
-
-      // Open search modal
-      function openSearch() {
-        document.getElementById("searchModal").style.display = "block";
-      }
-
-      // Close search modal
-      function closeSearch() {
-        document.getElementById("searchModal").style.display = "none";
-      }
     </script>
-
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
