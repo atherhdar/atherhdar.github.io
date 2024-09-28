@@ -6,20 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
-
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
   </head>
   <body>
     <style>
       body {
-        background-color: #ebf4fa; /* Change to your preferred background color */
+        background-color: #ebf4fa;
       }
       p {
         text-align: justify;
@@ -36,17 +34,18 @@
         left: 0;
         padding: 10px 15px;
         background-color: #dbe2e6;
-        width: calc(100% - 1cm); /* Ensures it stays within the margins */
+        width: 100%; /* Ensures it covers full width */
         z-index: 1000;
       }
       .nav-left {
-        font-size: 14pt;
+        font-size: 20pt;
         font-weight: bold;
-        font-family: 'Cinzel Decorative', cursive; /* Fancy font from Google Fonts */
+        font-family: 'Cinzel Decorative', serif; /* Cinzel Decorative font */
       }
       .nav-right {
         display: flex;
         gap: 15px;
+        margin-left: auto;
       }
       .nav-right a {
         color: #333;
@@ -57,7 +56,7 @@
       .nav-right a:hover {
         text-decoration: underline;
       }
-      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
+      /* Add margin-top to the header to prevent overlap */
       header {
         margin-top: 50px;
       }
