@@ -17,6 +17,8 @@
       .center-text {
         text-align: center;
       }
+
+      /* Main Navigation */
       nav {
         display: flex;
         justify-content: space-between;
@@ -47,18 +49,21 @@
       .nav-right a:hover {
         text-decoration: underline;
       }
+
+      /* Space between navigation and content */
       header {
-        margin-top: 70px; /* Adjusted to create space between nav and content */
+        margin-top: 70px; 
       }
-      /* Media query for small screens */
+
+      /* Dropdown for small screens */
       @media screen and (max-width: 768px) {
         .nav-right {
-          display: none; /* Hide the links on small screens */
+          display: none; /* Hide the navigation links on small screens */
         }
         .hamburger {
           display: block;
+          font-size: 24px;
           cursor: pointer;
-          font-size: 20px;
         }
         .dropdown {
           display: none;
@@ -67,28 +72,33 @@
           right: 15px;
           top: 50px;
           background-color: #dbe2e6;
-          width: 150px;
-          border-radius: 5px;
+          width: 100%;
         }
         .dropdown a {
           padding: 10px;
           text-align: center;
+          border-bottom: 1px solid #ccc;
         }
         .dropdown a:hover {
           background-color: #ccc;
         }
-        /* Show dropdown when hamburger is clicked */
+        /* Display dropdown when hamburger is clicked */
         .dropdown.show {
           display: flex;
         }
       }
+
       @media screen and (min-width: 769px) {
         .hamburger {
-          display: none; /* Hide hamburger on larger screens */
+          display: none; /* Hide the hamburger menu on larger screens */
+        }
+        .dropdown {
+          display: none; /* Ensure dropdown doesn't appear on large screens */
         }
       }
     </style>
   </head>
+
   <body>
     <div class="wrapper">
       <!-- Static Navigation Bar -->
@@ -100,7 +110,9 @@
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
         </div>
+        <!-- Hamburger icon for small screens -->
         <div class="hamburger" onclick="toggleDropdown()">&#9776;</div>
+        <!-- Dropdown menu for small screens -->
         <div class="dropdown" id="dropdown-menu">
           <a href="{{ site.baseurl }}/">Home</a>
           <a href="{{ site.baseurl }}/research">Research</a>
@@ -131,6 +143,7 @@
         {% endif %}
       </footer>
     </div>
+
     <script>
       function toggleDropdown() {
         var dropdown = document.getElementById('dropdown-menu');
