@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -38,6 +42,7 @@
       .nav-left {
         font-size: 14pt;
         font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive; /* Fancy font from Google Fonts */
       }
       .nav-right {
         display: flex;
@@ -67,7 +72,7 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-              </div>
+        </div>
       </nav>
 
       <header>
