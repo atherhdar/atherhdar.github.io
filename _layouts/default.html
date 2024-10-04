@@ -122,12 +122,13 @@
         </div>
       </nav>
 
-      <header>
+      <div class="sidebar" style="height: 100vh; overflow-y: auto; padding-top: 0; margin-top: 0;">
+        <header>
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <div class="sidebar" style="height: 100vh; overflow-y: auto;">
+        
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -143,9 +144,9 @@
           <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:18px;height:18px;"> </a> &nbsp;
           <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:18px;height:18px;"> </a>
         </center>
-        </div>
+        
       </header>
-
+</div>
       <section>
         {{ content }}
       </section>
