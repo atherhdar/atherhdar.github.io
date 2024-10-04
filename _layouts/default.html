@@ -17,31 +17,13 @@
       body {
         background-color: white;
         margin: 0;
-        font-family: Arial, sans-serif;
       }
-      .container {
+      .wrapper {
         display: flex;
-        min-height: 100vh; /* Ensure the page covers full height */
-      }
-      /* Left column styling */
-      .left-column {
-        width: 25%; /* Adjust based on your layout preference */
-        background-color: #f4f4f4;
-        padding: 20px;
-        box-sizing: border-box;
-        overflow-y: auto; /* Allow scrolling */
-        position: sticky;
-        top: 0;
+        flex-direction: column;
         height: 100vh;
+        overflow-y: auto; /* Enable scrolling for entire page */
       }
-      /* Right column styling */
-      .right-column {
-        width: 75%; /* Adjust based on your layout preference */
-        padding: 20px;
-        overflow-y: auto;
-        box-sizing: border-box;
-      }
-
       nav {
         display: flex;
         justify-content: space-between;
@@ -52,6 +34,7 @@
         right: 0;
         padding: 10px 15px;
         background-color: #dbe2e6;
+        box-sizing: border-box;
         z-index: 1000;
       }
       .nav-left {
@@ -74,7 +57,10 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 120px; /* Further increased vertical space */
+        margin-top: 120px;
+      }
+      section {
+        padding-top: 20px;
       }
       /* Responsive Design */
       @media (max-width: 768px) {
@@ -109,29 +95,39 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
+
+      .content {
+        padding: 20px;
+        margin-top: 150px; /* Ensure space from navigation */
+        overflow-y: auto; /* Ensure scrollability */
+      }
     </style>
   </head>
   <body>
-    <nav>
-      <div class="nav-left">Ather Hassan Dar</div>
-      <div class="menu-icon" onclick="toggleMenu()">☰</div>
-      <div class="nav-right">
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/research">Research</a>
-        <a href="{{ site.baseurl }}/teaching">Teaching</a>
-        <a href="{{ site.baseurl }}/awards">Awards</a>
-      </div>
-      <div class="dropdown" id="dropdownMenu">
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/research">Research</a>
-        <a href="{{ site.baseurl }}/teaching">Teaching</a>
-        <a href="{{ site.baseurl }}/awards">Awards</a>
-      </div>
-    </nav>
+    <div class="wrapper">
+      <nav>
+        <div class="nav-left">Ather Hassan Dar</div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="nav-right">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/research">Research</a>
+          <a href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a href="{{ site.baseurl }}/awards">Awards</a>
+        </div>
+        <div class="dropdown" id="dropdownMenu">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/research">Research</a>
+          <a href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a href="{{ site.baseurl }}/awards">Awards</a>
+        </div>
+      </nav>
 
-    <div class="container">
-      <!-- Left column for static information -->
-      <div class="left-column">
+      <header>
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -147,14 +143,17 @@
           <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:18px;height:18px;"> </a> &nbsp;
           <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:18px;height:18px;"> </a>
         </center>
-      </div>
+      </header>
 
-      <!-- Right column for page-specific content -->
-      <div class="right-column">
-        <section>
-          {{ content }}
-        </section>
-      </div>
+      <section class="content">
+        {{ content }}
+      </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+      </footer>
     </div>
 
     <script>
