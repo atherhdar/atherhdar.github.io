@@ -12,17 +12,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
     <style>
       body {
         background-color: white;
         margin: 0;
+        font-family: Arial, sans-serif;
       }
-      p {
-        text-align: justify;
+      .container {
+        display: flex;
+        min-height: 100vh; /* Ensure the page covers full height */
       }
-      .center-text {
-        text-align: center;
+      /* Left column styling */
+      .left-column {
+        width: 25%; /* Adjust based on your layout preference */
+        background-color: #f4f4f4;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-y: auto; /* Allow scrolling */
+        position: sticky;
+        top: 0;
+        height: 100vh;
       }
+      /* Right column styling */
+      .right-column {
+        width: 75%; /* Adjust based on your layout preference */
+        padding: 20px;
+        overflow-y: auto;
+        box-sizing: border-box;
+      }
+
       nav {
         display: flex;
         justify-content: space-between;
@@ -33,7 +52,6 @@
         right: 0;
         padding: 10px 15px;
         background-color: #dbe2e6;
-        box-sizing: border-box; /* Ensures padding is within screen limits */
         z-index: 1000;
       }
       .nav-left {
@@ -80,7 +98,6 @@
         top: 50px;
         right: 15px;
         background-color: #dbe2e6;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
         z-index: 1000;
         width: 150px;
       }
@@ -92,42 +109,29 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
-      }
-      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
-      header {
-        margin-top: 100px; /* Adjust this value as needed */
-      }
-      /* Ensure there is enough space between the content and the navigation panel */
-      section {
-        padding-top: 30px; /* Adjusts the space between the navbar and content */
-      }
     </style>
   </head>
   <body>
-    <div class="wrapper">
-      <nav>
-        <div class="nav-left">Ather Hassan Dar</div>
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
-        <div class="nav-right">
-          <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/research">Research</a>
-          <a href="{{ site.baseurl }}/teaching">Teaching</a>
-          <a href="{{ site.baseurl }}/awards">Awards</a>
-        </div>
-        <div class="dropdown" id="dropdownMenu">
-          <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/research">Research</a>
-          <a href="{{ site.baseurl }}/teaching">Teaching</a>
-          <a href="{{ site.baseurl }}/awards">Awards</a>
-        </div>
-      </nav>
+    <nav>
+      <div class="nav-left">Ather Hassan Dar</div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <div class="nav-right">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/research">Research</a>
+        <a href="{{ site.baseurl }}/teaching">Teaching</a>
+        <a href="{{ site.baseurl }}/awards">Awards</a>
+      </div>
+      <div class="dropdown" id="dropdownMenu">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/research">Research</a>
+        <a href="{{ site.baseurl }}/teaching">Teaching</a>
+        <a href="{{ site.baseurl }}/awards">Awards</a>
+      </div>
+    </nav>
 
-      <header>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+    <div class="container">
+      <!-- Left column for static information -->
+      <div class="left-column">
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -143,17 +147,14 @@
           <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:18px;height:18px;"> </a> &nbsp;
           <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:18px;height:18px;"> </a>
         </center>
-      </header>
+      </div>
 
-      <section>
-        {{ content }}
-      </section>
-
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
+      <!-- Right column for page-specific content -->
+      <div class="right-column">
+        <section>
+          {{ content }}
+        </section>
+      </div>
     </div>
 
     <script>
@@ -165,7 +166,7 @@
           menu.style.display = 'block';
         }
       }
-      
+
       // Close the dropdown menu when a link is clicked
       document.querySelectorAll('.dropdown a').forEach(function(link) {
         link.addEventListener('click', function() {
