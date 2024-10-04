@@ -1,31 +1,33 @@
----
----
-
-@import "{{ site.theme }}";
-
-header {
-  display: none;
+/* Define the layout for the two columns */
+.left-column {
+  width: 25%; /* Adjust this value as needed */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  position: sticky; /* Sticks to the top while scrolling */
+  top: 0; /* Stays at the top */
 }
 
-<style>
+.right-column {
+  width: 75%; /* Adjust based on your layout preference */
+  padding-left: 1em; /* Space between the columns */
+  overflow-y: auto; /* Ensures scrolling on the right column */
+}
+
+/* Ensuring the two columns are side by side */
+.container {
+  display: flex;
+}
 
 .gh-head-actions {
-	gap: 1em;
+  gap: 1em;
 }
+
 .social-media-icon svg {
-	width: 1.8em;
-	fill: black;
+  width: 1.8em;
+  fill: black;
 }
 
 h1 {
-line-height: 1;
-margin: 0;
+  line-height: 1;
+  margin: 0;
 }
-.left-column {
-  overflow-y: auto; /* Ensures vertical scrolling */
-  max-height: 100vh; /* Ensures it fits within the viewport height */
-  position: sticky; /* Keeps it static as you scroll the right column */
-  top: 0; /* Aligns it to the top */
-}
-
-</style>
