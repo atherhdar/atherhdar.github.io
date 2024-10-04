@@ -6,6 +6,11 @@
 header {
   display: none;
 }
+.sidebar {
+  padding-top: 0; /* Ensure no extra padding at the top */
+  margin-top: 0;  /* Ensure no extra margin */
+  position: relative; /* Makes sure it aligns to the top properly */
+}
 
 <style>
 
