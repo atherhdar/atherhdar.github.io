@@ -21,4 +21,11 @@ h1 {
 line-height: 1;
 margin: 0;
 }
+.left-column {
+  overflow-y: auto; /* Ensures vertical scrolling */
+  max-height: 100vh; /* Ensures it fits within the viewport height */
+  position: sticky; /* Keeps it static as you scroll the right column */
+  top: 0; /* Aligns it to the top */
+}
+
 </style>
