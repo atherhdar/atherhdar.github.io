@@ -92,35 +92,14 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
-      /* News Ticker Style */
-      .news-ticker {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        color: white;
-        padding: 10px 0;
-        font-size: 16px;
-        text-align: center;
-        z-index: 9999;
-        white-space: nowrap;
-        overflow: hidden;
       }
-
-      .news-ticker span {
-        display: inline-block;
-        padding-left: 100%;
-        animation: ticker 20s linear infinite;
+      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
+      header {
+        margin-top: 100px; /* Adjust this value as needed */
       }
-
-      @keyframes ticker {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-100%);
-        }
+      /* Ensure there is enough space between the content and the navigation panel */
+      section {
+        padding-top: 30px; /* Adjusts the space between the navbar and content */
       }
     </style>
   </head>
@@ -140,7 +119,7 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-        </div>
+          </div>
       </nav>
 
       <header>
@@ -167,14 +146,8 @@
       </header>
 
       <section>
-        <!-- Main Content for Home Page -->
-        <p>Welcome to my academic website. I am currently a PhD student at the Department of Economic Sciences at IIT Kanpur, India. My research interests are in Applied Microeconomics and Development Economics. You can explore more about my work and publications here.</p>
+        {{ content }}
       </section>
-      
-      <!-- News Ticker (Displays headlines from updates.md) -->
-      <div class="news-ticker" id="newsTicker">
-        <span id="tickerContent">Loading news headlines...</span>
-      </div>
 
       <footer>
         {% if site.github.is_project_page %}
@@ -184,16 +157,21 @@
     </div>
 
     <script>
-      // Function to load the updates.md file and display it in the news ticker
-      fetch('updates.md')
-        .then(response => response.text())
-        .then(data => {
-          const headlines = data.split("\n").filter(line => line.trim() !== "").map(line => `<span>${line}</span>`).join(' | ');
-          document.getElementById('tickerContent').innerHTML = headlines;
-        })
-        .catch(error => {
-          document.getElementById('tickerContent').innerHTML = 'Failed to load news headlines.';
+      function toggleMenu() {
+        var menu = document.getElementById('dropdownMenu');
+        if (menu.style.display === 'block') {
+          menu.style.display = 'none';
+        } else {
+          menu.style.display = 'block';
+        }
+      }
+      
+      // Close the dropdown menu when a link is clicked
+      document.querySelectorAll('.dropdown a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          document.getElementById('dropdownMenu').style.display = 'none';
         });
+      });
     </script>
   </body>
 </html>
