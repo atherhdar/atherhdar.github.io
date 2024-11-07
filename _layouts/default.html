@@ -92,14 +92,39 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
+      .updates-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
       }
-      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
-      header {
-        margin-top: 100px; /* Adjust this value as needed */
+      .popup-modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 600px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
+        border-radius: 10px;
       }
-      /* Ensure there is enough space between the content and the navigation panel */
-      section {
-        padding-top: 30px; /* Adjusts the space between the navbar and content */
+      .popup-modal .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        background: none;
+        border: none;
       }
     </style>
   </head>
@@ -119,7 +144,7 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-          </div>
+        </div>
       </nav>
 
       <header>
@@ -146,8 +171,14 @@
       </header>
 
       <section>
-        {{ content }}
+        <button class="updates-btn" onclick="openPopup()">Updates</button>
       </section>
+
+      <!-- Popup Modal -->
+      <div id="popupModal" class="popup-modal">
+        <button class="close-btn" onclick="closePopup()">×</button>
+        <div id="popupContent"></div>
+      </div>
 
       <footer>
         {% if site.github.is_project_page %}
@@ -165,13 +196,33 @@
           menu.style.display = 'block';
         }
       }
-      
-      // Close the dropdown menu when a link is clicked
+
       document.querySelectorAll('.dropdown a').forEach(function(link) {
         link.addEventListener('click', function() {
           document.getElementById('dropdownMenu').style.display = 'none';
         });
       });
+
+      // Open the popup and load content from updates.md
+      function openPopup() {
+        var popup = document.getElementById('popupModal');
+        var popupContent = document.getElementById('popupContent');
+        
+        fetch('updates.md')
+          .then(response => response.text())
+          .then(data => {
+            popupContent.innerHTML = data;
+            popup.style.display = 'block';
+          })
+          .catch(error => {
+            popupContent.innerHTML = '<p>Failed to load updates.</p>';
+          });
+      }
+
+      // Close the popup
+      function closePopup() {
+        document.getElementById('popupModal').style.display = 'none';
+      }
     </script>
   </body>
 </html>
