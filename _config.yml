@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+lt# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -7,7 +7,7 @@
 
 # Site Settings
 theme: jekyll-theme-minimal
-minimal_mistakes_skin: "mint" 
+minimal_mistakes_skin: default 
 
 logo                     : /pic.png
 title                    : "Ather Hassan Dar"
