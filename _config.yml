@@ -7,7 +7,7 @@ lt# Welcome to Jekyll!
 
 # Site Settings
 theme: jekyll-theme-minimal
-minimal_mistakes_skin: mint 
+minimal_mistakes_skin: "mint" 
 
 logo                     : /pic.png
 title                    : "Ather Hassan Dar"
