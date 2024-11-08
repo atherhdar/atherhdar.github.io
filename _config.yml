@@ -1,4 +1,4 @@
-lt# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -14,9 +14,9 @@ title                    : "Ather Hassan Dar"
 title_separator          : "-"
 name                     : &name "Ather Hassan Dar"
 masthead_title:             "Ather Hassan Dar"
+
 github:
   is\_project\_page: false
-
 
 # Site Author
 author:
