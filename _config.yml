@@ -14,44 +14,9 @@ title                    : "Ather Hassan Dar"
 title_separator          : "-"
 name                     : &name "Ather Hassan Dar"
 masthead_title:             "Ather Hassan Dar"
-search: true
 github:
   is\_project\_page: false
 
-# Build settings
-markdown: kramdown
-#kramdown:
-#  parse_block_html: true
-remote_theme: seri-network/minimal-mistakes-seri
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
 # Site Author
 author:
