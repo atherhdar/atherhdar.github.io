@@ -21,12 +21,12 @@ line-height: 1;
 margin: 0;
 }
 .wrapper {
-  width:860px;
+  width:1000px;
   margin:0 auto;
 }
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-right:10px;
 }
 </style>
