@@ -20,5 +20,8 @@ h1 {
 line-height: 1;
 margin: 0;
 }
-
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
 </style>
