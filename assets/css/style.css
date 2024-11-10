@@ -20,4 +20,16 @@ h1 {
 line-height: 1;
 margin: 0;
 }
+
+
+.left-panel {
+    width: 20%;  /* Adjust as needed */
+}
+
+.right-panel {
+    width: 80%;  /* Adjust as needed */
+}
+.container {
+    display: flex;
+}
 </style>
