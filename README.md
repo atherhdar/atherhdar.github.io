@@ -10,13 +10,6 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
 **Primary**: Development Economics, Education & Health Economics, Economics of Crime and Conflicts <br>
 
 **Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
-<div class="nav-bar">
-  <!-- Other navigation items -->
-  <input type="text" placeholder="Search..." style="padding: 5px; border-radius: 4px; border: 1px solid #ccc;">
-  <button style="padding: 5px; border-radius: 4px; background-color: #4CAF50; color: white; border: none;">
-    🔍
-  </button>
-</div>
 
 <div style="background-color: #dbe2e6; padding: 3px; position: fixed; bottom: 5mm; width: 60%; padding-right: 10px; z-index: 9999;">
  <marquee behavior="scroll" direction="left" scrollamount="5" style="color: black; font-weight: bold;">
