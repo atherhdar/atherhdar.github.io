@@ -26,3 +26,9 @@ We investigate the impact of access to informal finance on crime in India. Using
 We study the effects of alcohol prohibition on children's learning outcomes. The context of the paper is the Indian state of Bihar, which implemented a statewide ban on the manufacturing, sale, transport and consumption of alcohol in April 2016. This policy induces plausibly exogenous variation in the availability of alcohol, which we exploit in a difference-indifferences framework. We find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males. </div>
 </details>
 <br/>
+
+<div style="background-color: #f8d7da; padding: 10px;">
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="color: #721c24; font-weight: bold;">
+    Latest Highlights: Update 1 | Update 2 | Update 3
+  </marquee>
+</div>
