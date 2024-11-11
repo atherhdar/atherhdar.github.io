@@ -27,8 +27,4 @@ We study the effects of alcohol prohibition on children's learning outcomes. The
 </details>
 <br/>
 
-<div style="background-color: #f8d7da; padding: 10px;">
-  <marquee behavior="scroll" direction="left" scrollamount="6" style="color: #721c24; font-weight: bold;">
-    Latest Highlights: Update 1 | Update 2 | Update 3
-  </marquee>
-</div>
+
