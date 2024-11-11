@@ -11,7 +11,7 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
 
 **Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
 
-<div style="background-color: #dbe2e6; padding: 9px; position: fixed; bottom: 0; z-index: 9999;">
+<div style="background-color: #dbe2e6; padding: 9px; position: fixed; z-index: 9999;">
   <marquee behavior="scroll" direction="left" scrollamount="5" style="color: #721c24; font-weight: bold;">
     Latest Highlights: Update 1 | Update 2 | Update 3
   </marquee>
