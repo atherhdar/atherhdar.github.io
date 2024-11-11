@@ -11,7 +11,7 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
 
 **Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
 
-<div style="background-color: #dbe2e6; padding: 3px; position: fixed; bottom: 5mm; width: 60%; padding-right: 10px; z-index: 9999;">
+<div style="background-color: #dbe2e6; padding: 2px; position: fixed; bottom: 5mm; width: 60%; padding-right: 10px; z-index: 9999;">
   <marquee behavior="scroll" direction="left" scrollamount="5" style="color: #721c24; font-weight: bold;">
     Updates: Paper ABC has been submitted and is currently under review | Paper XYZ has been accepted for publication at ABC Journal |
   </marquee>
