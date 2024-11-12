@@ -15,5 +15,31 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
  <marquee behavior="scroll" direction="left" scrollamount="5" style="color: black; font-weight: bold;">
  </marquee>
 </div>
+<div style="background-color: #f8d7da; padding: 10px; position: fixed; bottom: 2mm; width: 100%; z-index: 9999;">
+  <marquee behavior="scroll" direction="left" scrollamount="6" class="marquee-text" style="color: #721c24; font-weight: bold;">
+    Latest Highlights: Update 1 | Update 2 | Update 3
+  </marquee>
+</div>
+
+<style>
+/* Default marquee style */
+.marquee-text {
+  font-size: 16px;
+}
+
+/* For screens smaller than 768px (tablets, small laptops) */
+@media (max-width: 768px) {
+  .marquee-text {
+    font-size: 14px;
+  }
+}
+
+/* For screens smaller than 480px (mobiles) */
+@media (max-width: 480px) {
+  .marquee-text {
+    font-size: 12px;
+  }
+}
+</style>
 
 
