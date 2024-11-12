@@ -16,25 +16,5 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
  </marquee>
 </div>
 
-<style>
-/* Default marquee style */
-.marquee-text {
-  font-size: 16px;
-}
-
-/* For screens smaller than 768px (tablets, small laptops) */
-@media (max-width: 768px) {
-  .marquee-text {
-    font-size: 14px;
-  }
-}
-
-/* For screens smaller than 480px (mobiles) */
-@media (max-width: 480px) {
-  .marquee-text {
-    font-size: 12px;
-  }
-}
-</style>
 
 
