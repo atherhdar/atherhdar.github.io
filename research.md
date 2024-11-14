@@ -1,5 +1,5 @@
 ### WORKING PAPERS
-**Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [<span style="color: purple"> JMP </span>] 
+**Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [<span style="color: purple">JMP</span>] 
 <details>
   <summary><kbd style="background-color: #e0e0e0"> Abstract </kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd></summary>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;text-align: justify;"> 
