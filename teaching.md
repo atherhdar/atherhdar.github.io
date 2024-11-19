@@ -19,10 +19,10 @@ As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist i
   Spring 2023-24 </li>
 <li>Market Design
 Fall Fall 2023-24; 2022-23</li>
-<li>Behavioural & Experimental Economics
-Summer 2020-21</li>
 <li>Introduction to Mathematical Economics
 Spring 2022-23 </li>
+<li>Behavioural & Experimental Economics
+Summer 2020-21</li>
 <br>
 
 
