@@ -23,7 +23,7 @@ As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist i
 Fall Fall 2023-24; 2022-23</li>
 <li>Introduction to Mathematical Economics &#8211;&#8211;
 Spring 2022-23 </li>
-<li>Behavioural & Experimental Economics &#8211;&#8211;
+<li>Behavioral & Experimental Economics &#8211;&#8211;
 Summer 2020-21</li>
 <br>
 
