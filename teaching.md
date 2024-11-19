@@ -7,7 +7,7 @@ As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist i
 
 **Tutoring** 
 <li> Program Evaluation
-   @IIT Kanpur (E-Masters)        Fall 2023-24 </li>
+   @IIT Kanpur (E-Masters)   ---     Fall 2023-24 </li>
 <li> Applied Statistics and Econometrics
    @NPTEL Online Course         Jan21-Apr21 </li>
 <li> Introduction to Economics
