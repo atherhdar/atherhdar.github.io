@@ -9,7 +9,7 @@ Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to co
 ### RESEARCH INTERESTS
 **Primary**: Development Economics, Education & Health Economics, Economics of Crime and Conflicts <br>
 
-**Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
+**Secondary**: Labor Economics, Gender & Family Economics, Behavioral & Experimental Economics <br>
 
 <div style="background-color: transparent; padding: 3px; position: fixed; bottom: 5mm; width: 65%; padding-right: 10px; z-index: 9999;">
  <marquee behavior="scroll" direction="left" scrollamount="5" style="color: black; font-weight: bold;">
