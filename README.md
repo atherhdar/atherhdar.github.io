@@ -6,7 +6,7 @@ I am a PhD student in the Economic Sciences Department at the Indian Institute o
 Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to contact me at my [email address](mailto:atherhdar@gmail.com).  <br/>
 <br/>
 
-### Research Interests
+### RESEARCH INTERESTS
 **Primary**: Development Economics, Education & Health Economics, Economics of Crime and Conflicts <br>
 
 **Secondary**: Labor Economics, Gender & Family Economics, Experimental & Behavioral Economics <br>
