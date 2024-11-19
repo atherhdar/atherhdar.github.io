@@ -13,16 +13,16 @@ As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist i
 <li> Introduction to Economics
  @IIT Kanpur        Fall 2021-22</li> <br>
 **Teaching Assistance**
-<li>Program Evaluation
-  Spring 2023-24 </li>
-<li>Introduction to Mathematical Economics
-Spring 2022-23 </li>
-<li>Market Design
-Fall 2022-23; Fall 2023-24</li>
-<li>Behavioural & Experimental Economics
-Summer 2020-21</li>
 <li> Game Theory
    Fall 2024-25</li>
+<li>Program Evaluation
+  Spring 2023-24 </li>
+<li>Market Design
+Fall Fall 2023-24; 2022-23</li>
+<li>Behavioural & Experimental Economics
+Summer 2020-21</li>
+<li>Introduction to Mathematical Economics
+Spring 2022-23 </li>
 <br>
 
 
