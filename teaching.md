@@ -2,7 +2,7 @@
 **Primary**: Econometrics, Applied Econometrics, Program Evaluation and Microeconomics <br>
 **Secondary:** Development Economics, Labour Economics and Mathematical Economics
 
-##### TEACHING EXPERIENCE
+### TEACHING EXPERIENCE
 As a PhD student at IIT Kanpur, I have had the opportunity to teach and assist in various courses. My teaching experience includes: 
 
 **Tutoring** 
