@@ -128,7 +128,7 @@ header {
   bottom: 0; /* Ensure the header spans the full height of the viewport */
   -webkit-font-smoothing: subpixel-antialiased;
   max-height: 100vh; /* Constrain height to viewport */
-  overflow-y: auto; /* Enable scrolling */
+ 
 }
 
 
