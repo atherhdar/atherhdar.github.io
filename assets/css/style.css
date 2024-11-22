@@ -121,7 +121,7 @@ kbd {
 }
 
 header {
-  width: 270px;
+  width: 300px;
   float: left;
   position: fixed;
   top: 0; /* Ensure the header starts at the top */
