@@ -2,6 +2,15 @@
 @import "rouge-github";
 @import "{{ site.theme }}";
 
+header {
+  width: 270px;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  max-height: 100vh; /* Adjusts the height to fit the viewport */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
 body {
   background-color: #fff;
   padding: 50px;
