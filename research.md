@@ -2,7 +2,7 @@
 **Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [**<span style="color: purple">JMP</span>**] 
 <details>
   <summary><kbd style="background-color: #e0e0e0"> Abstract </kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd></summary>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;text-align: justify;"> 
+<div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
 Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive. </div>
 </details><br>
 **Civil unrest and learning outcomes in India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
