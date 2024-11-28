@@ -1,7 +1,7 @@
 ### FELLOWSHIPS AND GRANTS
 <ol>
-<li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI 2023 </li>
-<li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI 2022 </li>
+<li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI (2023) </li>
+<li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI (2022) </li>
 <li>Travel grants from Dean of Academic Affairs, IIT Kanpur for attending national and international conferences</li>
 <li>Travel grant from Department of Economic Sciences, IIT Kanpur for attending international conference</li>
 <li>UGC NTA NET 2019</li>
