@@ -132,7 +132,7 @@ header {
   /* scrollbar-width: none; /* For Firefox: hides the scrollbar */
   /* -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar */
   direction: rtl;
-  -webkit-scrollbar-width: thin;
+  -webkit-scrollbar-width: 2px;
   }
 
 
