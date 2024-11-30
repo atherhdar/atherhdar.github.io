@@ -130,7 +130,7 @@ header {
   max-height: 100vh; /* Constrain height to viewport */
   overflow-y: scroll; /* Allow vertical scrolling */
   scrollbar-width: none; /* For Firefox: hides the scrollbar */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar *  
+  -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar */  
 }
 
 
