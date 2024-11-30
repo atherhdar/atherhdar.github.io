@@ -129,8 +129,7 @@ header {
   -webkit-font-smoothing: subpixel-antialiased;
   max-height: 100vh; /* Constrain height to viewport */
   overflow-y: scroll; /* Allow vertical scrolling */
-  scrollbar-width: left; /* For Firefox: hides the scrollbar */
-  -ms-overflow-style: left; /* For Internet Explorer and Edge: hides the scrollbar */
+  direction: rtl;
 }
 
 
