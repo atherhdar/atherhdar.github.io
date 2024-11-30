@@ -129,9 +129,10 @@ header {
   -webkit-font-smoothing: subpixel-antialiased;
   max-height: 100vh; /* Constrain height to viewport */
   overflow-y: scroll; /* Allow vertical scrolling */
-  scrollbar-width: none; /* For Firefox: hides the scrollbar */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar */
+  /* scrollbar-width: none; /* For Firefox: hides the scrollbar */
+  /* -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar */
   direction: rtl;
+  -webkit-scrollbar-width: thin;
   }
 
 
