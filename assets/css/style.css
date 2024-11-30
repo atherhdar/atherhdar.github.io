@@ -132,8 +132,11 @@ header {
   /* scrollbar-width: none; /* For Firefox: hides the scrollbar */
   /* -ms-overflow-style: none; /* For Internet Explorer and Edge: hides the scrollbar */
   direction: rtl;
-  -webkit-scrollbar-width: 2px;
   }
+header::-webkit-scrollbar {
+  width: 6px; /* Reduced width of the scrollbar */
+  background-color: #f0f0f0; /* Background color of the scrollbar track */
+}
 
 
 ul.downloads {
