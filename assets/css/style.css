@@ -135,7 +135,7 @@ header {
   }
 header::-webkit-scrollbar {
   width: 6px; /* Reduced width of the scrollbar */
-  background-color: #f0f0f0; /* Background color of the scrollbar track */
+  
 }
 
 
