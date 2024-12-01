@@ -124,7 +124,7 @@ header {
   width: 300px;
   float: left;
   position: fixed;
-  top: -1; /* Ensure the header starts at the top */
+  top: 0; /* Ensure the header starts at the top */
   bottom: 0; /* Ensure the header spans the full height of the viewport */
   -webkit-font-smoothing: subpixel-antialiased;
   max-height: 100vh; /* Constrain height to viewport */
