@@ -1,6 +1,6 @@
 ## Welcome to my website!
 
-I am a PhD student in the Economic Sciences Department at the Indian Institute of Technology, Kanpur (IITK). My broad research area is Applied Microeconomics, with a particular focus on Development Economics. My current research explores how exposure to various forms of violence impacts economic outcomes such as human capital accumulation, social capital, and fertility preferences. Additionally, I investigate how household shocks, whether policy-driven or due to natural phenomena, affect education, health, and other important economic outcomes. 
+I am a PhD candidate in the Department of Economic Sciences at the Indian Institute of Technology, Kanpur (IITK), specializing in Applied Microeconomics with a particular focus on Development Economics. My research delves into the economic consequences of exposure to various forms of violence, examining its impact on outcomes such as human capital accumulation, social capital, and fertility preferences. Additionally, I explore how household-level shocks whether driven by policy interventions or natural events—shape critical outcomes like education, health, and broader economic well-being. 
 <br/>
 <br/>
 Please find my CV [here](https://atherhdar.github.io/CV.pdf) and feel free to contact me at my [email address](mailto:atherhdar@gmail.com).  <br/>
