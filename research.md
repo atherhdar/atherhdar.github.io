@@ -7,7 +7,7 @@ Human behavior is influenced by both biology and social norms. Natural selection
 </details>
 <details>
   <summary><kbd style="background-color: #e0e0e0"> Presentations </kbd> </summary>
-<div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
+<div style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
 <li> Conference 1 </li> </div>
 </details><br/>
 **Civil unrest and learning outcomes in India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
