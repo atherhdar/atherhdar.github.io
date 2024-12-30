@@ -26,7 +26,7 @@ We study the effects of alcohol prohibition on children's learning outcomes. The
 <summary><kbd style="background-color: #e0e0e0"> Abstract </kbd>  <span style="color: #727272"></span> </summary>
 <div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
 We investigate the impact of access to informal finance on crime in India. Using within-household variation in membership in a popular informal financial institution (Rotating Savings and Credit Associations (ROSCAs)) in a nationally representative panel of households, we find that membership is associated with a higher probability of victimization in property crimes and heightened perception of the incidence of crimes against women in the neighborhood. This is plausibly driven by the “loot effect”: ROSCAs lead to more household assets, thus making members more attractive targets. Moreover, ROSCAs also lead to greater mobility for women and increases their chance of participating in the labor market. </div>
-</details>
+</details> </br>
 **Moral values and attitudes: A study to encourage prosocial behavior amongst adolescent schoolchildren**  (*with [Anomita Ghosh](https://anomitaghosh.github.io/), [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
 
 
