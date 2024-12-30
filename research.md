@@ -1,28 +1,6 @@
 ### WORKING PAPERS
 ### WORKING PAPERS
 **Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [**<span style="color: purple">JMP</span>**] 
-
-<details>
-  <summary>
-    <kbd style="background-color: #e0e0e0"> Abstract </kbd> 
-    <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd>
-    <kbd> Presentation </kbd>
-  </summary>
-  <div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px; text-align: justify;"> 
-    <h4>Abstract:</h4>
-    Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.
-
-    <h4>Presentations:</h4>
-    <ul>
-      <li><a href="link-to-presentation-1">Conference Presentation 1</a></li>
-      <li><a href="link-to-presentation-2">Conference Presentation 2</a></li>
-      <li><a href="link-to-presentation-3">Seminar Presentation 3</a></li>
-    </ul>
-  </div>
-</details>
-<br>
-
-**Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [**<span style="color: purple">JMP</span>**] 
 <details>
   <summary><kbd style="background-color: #e0e0e0"> Abstract </kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd> </summary>
 <div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
