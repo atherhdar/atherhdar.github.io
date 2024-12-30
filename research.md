@@ -1,4 +1,13 @@
-### WORKING PAPERS
+<script>
+  function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section.style.display === "none") {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  }
+</script>
 ### WORKING PAPERS
 **Violence, son preference and fertility: Evidence from India** (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*) [**<span style="color: purple">JMP</span>**] 
 
@@ -12,9 +21,9 @@
 
 <div id="presentation-section" style="display: none; margin-top: 10px; background-color: #F1F1F1; color: #000000; padding: 10px;">
   <ul>
-    <li><Conference Presentation 1</li>
-    <li><Conference Presentation 2</li>
-    <li><Seminar Presentation 3</li>
+    <li>Conference Presentation 1</li>
+    <li>Conference Presentation 2</li>
+    <li>Conference Presentation 3</li>
   </ul>
 </div>
 
