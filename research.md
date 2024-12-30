@@ -19,14 +19,14 @@ We study the effect of civil unrest on learning outcomes of schoolgoing children
 We study the effects of alcohol prohibition on children's learning outcomes. The context of the paper is the Indian state of Bihar, which implemented a statewide ban on the manufacturing, sale, transport and consumption of alcohol in April 2016. This policy induces plausibly exogenous variation in the availability of alcohol, which we exploit in a difference-indifferences framework. We find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males. </div>
 </details>
 <br/>
-</details><br>
+
 ### WORK IN PROGRESS
 **Informal financial institutions and crime: Evidence from ROSCAs in India**  (*with [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
 <details>    
-<summary><kbd style="background-color: #e0e0e0"> Abstract </kbd>  <span style="color: #727272">(<em>Submitted</em>)</span> </summary>
+<summary><kbd style="background-color: #e0e0e0"> Abstract </kbd>  <span style="color: #727272"></span> </summary>
 <div class="panel" style="background-color: #F1F1F1; color: #000000; padding: 10px;text-align: justify;"> 
 We investigate the impact of access to informal finance on crime in India. Using within-household variation in membership in a popular informal financial institution (Rotating Savings and Credit Associations (ROSCAs)) in a nationally representative panel of households, we find that membership is associated with a higher probability of victimization in property crimes and heightened perception of the incidence of crimes against women in the neighborhood. This is plausibly driven by the “loot effect”: ROSCAs lead to more household assets, thus making members more attractive targets. Moreover, ROSCAs also lead to greater mobility for women and increases their chance of participating in the labor market. </div>
 </details>
-**Moral values and attitudes: A study to encourage prosocial behavior amongst adolescent schoolchildren**  (*with [Anomite Ghosh] (https://anomitaghosh.github.io), [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
+**Moral values and attitudes: A study to encourage prosocial behavior amongst adolescent schoolchildren**  (*with [Anomita Ghosh](https://anomitaghosh.github.io/), [Debayan Pakrashi](https://www.debayanpakrashi.com/) and [Sounak Thakur](https://www.sites.google.com/view/sounakthakur/)*)
 
 
