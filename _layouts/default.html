@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
-    <link rel="icon" href="{{ site.baseurl }}/wblogo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -45,6 +44,7 @@
         font-weight: bold;
       }
       .nav-left img {
+        width: 30px;
         height: 30px;
         margin-right: 10px;
       }
@@ -63,8 +63,14 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 90px;
+        margin-top: 100px;
+        text-align: center;
       }
+      header img {
+        max-width: 150px;
+        border-radius: 50%;
+      }
+      /* Responsive Design */
       @media (max-width: 768px) {
         nav .nav-right {
           display: none;
@@ -98,12 +104,6 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
-      header {
-        margin-top: 100px;
-      }
-      section {
-        padding-top: 30px;
-      }
     </style>
   </head>
   <body>
@@ -127,34 +127,32 @@
           <a href="{{ site.baseurl }}/awards">Awards</a>
         </div>
       </nav>
+
       <header>
+        <img src="{{ site.baseurl }}/profile-photo.jpg" alt="Your Photograph">
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <center>
-          <h1 class="mtn">Ather Hassan Dar</h1>
-          <h3>PhD Student</h3>
-          <p class="center-text">
-            Department of Economic Sciences<br>
-            Indian Institute of Technology, Kanpur<br>
-            Uttar Pradesh, India
-          </p><br>
-          <a href="https://atherhdar.github.io/CV.pdf"><img src="CV.png" style="width:20px;height:20px;"> </a> &nbsp;
-          <a href="mailto:atherhdar@gmail.com"><img src="email.png" style="width:20px;height:20px;"> </a> &nbsp;
-          <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><img src="rg.png" style="width:20px;height:20px;"> </a> &nbsp;
-          <a href="https://orcid.org/0000-0001-8938-284X"><img src="orcid.svg" style="width:20px;height:20px;"> </a> &nbsp;
-          <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:20px;height:20px;"> </a> &nbsp;
-          <a href="https://in.linkedin.com/in/atherhdar"><img src="linkedin.png" style="width:20px;height:18px;"> </a> &nbsp;
-          <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:20px;height:20px;"> </a>
-        </center>
+
+        <h1>Ather Hassan Dar</h1>
+        <h3>PhD Student</h3>
+        <p class="center-text">
+          Department of Economic Sciences<br>
+          Indian Institute of Technology, Kanpur<br>
+          Uttar Pradesh, India
+        </p>
+        <a href="https://atherhdar.github.io/CV.pdf"><img src="{{ site.baseurl }}/CV.png" style="width:20px;height:20px;"> </a> &nbsp;
+        <a href="mailto:atherhdar@gmail.com"><img src="{{ site.baseurl }}/email.png" style="width:20px;height:20px;"> </a> &nbsp;
+        <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><img src="{{ site.baseurl }}/rg.png" style="width:20px;height:20px;"> </a> &nbsp;
+        <a href="https://orcid.org/0000-0001-8938-284X"><img src="{{ site.baseurl }}/orcid.svg" style="width:20px;height:20px;"> </a> &nbsp;
+        <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="{{ site.baseurl }}/scholar.png" style="width:20px;height:20px;"> </a> &nbsp;
+        <a href="https://in.linkedin.com/in/atherhdar"><img src="{{ site.baseurl }}/linkedin.png" style="width:20px;height:18px;"> </a> &nbsp;
+        <a href="https://twitter.com/atherhdar"><img src="{{ site.baseurl }}/twitter.png" style="width:20px;height:20px;"> </a>
       </header>
+
       <section>
         {{ content }}
       </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
     </div>
+
     <script>
       function toggleMenu() {
         var menu = document.getElementById('dropdownMenu');
@@ -164,6 +162,8 @@
           menu.style.display = 'block';
         }
       }
+      
+      // Close the dropdown menu when a link is clicked
       document.querySelectorAll('.dropdown a').forEach(function(link) {
         link.addEventListener('click', function() {
           document.getElementById('dropdownMenu').style.display = 'none';
