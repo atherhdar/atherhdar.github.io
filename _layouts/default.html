@@ -2,10 +2,11 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
-    <title>Ather Hassan Dar</title>
+    <title>Ather Hassan Dar - PhD Student</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    <link rel="icon" href="{{ site.baseurl }}/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -33,13 +34,19 @@
         right: 0;
         padding: 5px 15px;
         background-color: #dbe2e6;
-        box-sizing: border-box; /* Ensures padding is within screen limits */
+        box-sizing: border-box;
         z-index: 1000;
       }
       .nav-left {
+        display: flex;
+        align-items: center;
         font-family: 'Cinzel Decorative', serif;
         font-size: 14pt;
         font-weight: bold;
+      }
+      .nav-left img {
+        height: 30px;
+        margin-right: 10px;
       }
       .nav-right {
         display: flex;
@@ -56,9 +63,8 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 90px; /* Further increased vertical space */
+        margin-top: 90px;
       }
-      /* Responsive Design */
       @media (max-width: 768px) {
         nav .nav-right {
           display: none;
@@ -92,21 +98,21 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
-      }
-      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
       header {
-        margin-top: 100px; /* Adjust this value as needed */
+        margin-top: 100px;
       }
-      /* Ensure there is enough space between the content and the navigation panel */
       section {
-        padding-top: 30px; /* Adjusts the space between the navbar and content */
+        padding-top: 30px;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <nav>
-        <div class="nav-left">Ather Hassan Dar</div>
+        <div class="nav-left">
+          <img src="{{ site.baseurl }}/assets/logo.png" alt="Logo">
+          Ather Hassan Dar
+        </div>
         <div class="menu-icon" onclick="toggleMenu()">☰</div>
         <div class="nav-right">
           <a href="{{ site.baseurl }}/">Home</a>
@@ -119,15 +125,10 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-          </div>
+        </div>
       </nav>
-
       <header>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
         <center>
           <h1 class="mtn">Ather Hassan Dar</h1>
           <h3>PhD Student</h3>
@@ -145,18 +146,15 @@
           <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:20px;height:20px;"> </a>
         </center>
       </header>
-
       <section>
         {{ content }}
       </section>
-
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
       </footer>
     </div>
-
     <script>
       function toggleMenu() {
         var menu = document.getElementById('dropdownMenu');
@@ -166,8 +164,6 @@
           menu.style.display = 'block';
         }
       }
-      
-      // Close the dropdown menu when a link is clicked
       document.querySelectorAll('.dropdown a').forEach(function(link) {
         link.addEventListener('click', function() {
           document.getElementById('dropdownMenu').style.display = 'none';
