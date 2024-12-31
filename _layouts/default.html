@@ -33,20 +33,13 @@
         right: 0;
         padding: 5px 15px;
         background-color: #dbe2e6;
-        box-sizing: border-box;
+        box-sizing: border-box; /* Ensures padding is within screen limits */
         z-index: 1000;
       }
       .nav-left {
-        display: flex;
-        align-items: center;
         font-family: 'Cinzel Decorative', serif;
         font-size: 14pt;
         font-weight: bold;
-      }
-      .nav-left img {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
       }
       .nav-right {
         display: flex;
@@ -63,12 +56,7 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 100px;
-        text-align: center;
-      }
-      header img {
-        max-width: 150px;
-        border-radius: 50%;
+        margin-top: 90px; /* Further increased vertical space */
       }
       /* Responsive Design */
       @media (max-width: 768px) {
@@ -104,15 +92,21 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
+      }
+      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
+      header {
+        margin-top: 100px; /* Adjust this value as needed */
+      }
+      /* Ensure there is enough space between the content and the navigation panel */
+      section {
+        padding-top: 30px; /* Adjusts the space between the navbar and content */
+      }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <nav>
-        <div class="nav-left">
-          <img src="{{ site.baseurl }}/wblogo.png" alt="Logo">
-          Ather Hassan Dar
-        </div>
+        <div class="nav-left">Ather Hassan Dar</div>
         <div class="menu-icon" onclick="toggleMenu()">☰</div>
         <div class="nav-right">
           <a href="{{ site.baseurl }}/">Home</a>
@@ -125,32 +119,42 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-        </div>
+          </div>
       </nav>
 
       <header>
-        <img src="{{ site.baseurl }}/profile-photo.jpg" alt="Your Photograph">
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <h1>Ather Hassan Dar</h1>
-        <h3>PhD Student</h3>
-        <p class="center-text">
-          Department of Economic Sciences<br>
-          Indian Institute of Technology, Kanpur<br>
-          Uttar Pradesh, India
-        </p>
-        <a href="https://atherhdar.github.io/CV.pdf"><img src="{{ site.baseurl }}/CV.png" style="width:20px;height:20px;"> </a> &nbsp;
-        <a href="mailto:atherhdar@gmail.com"><img src="{{ site.baseurl }}/email.png" style="width:20px;height:20px;"> </a> &nbsp;
-        <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><img src="{{ site.baseurl }}/rg.png" style="width:20px;height:20px;"> </a> &nbsp;
-        <a href="https://orcid.org/0000-0001-8938-284X"><img src="{{ site.baseurl }}/orcid.svg" style="width:20px;height:20px;"> </a> &nbsp;
-        <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="{{ site.baseurl }}/scholar.png" style="width:20px;height:20px;"> </a> &nbsp;
-        <a href="https://in.linkedin.com/in/atherhdar"><img src="{{ site.baseurl }}/linkedin.png" style="width:20px;height:18px;"> </a> &nbsp;
-        <a href="https://twitter.com/atherhdar"><img src="{{ site.baseurl }}/twitter.png" style="width:20px;height:20px;"> </a>
+        <center>
+          <h1 class="mtn">Ather Hassan Dar</h1>
+          <h3>PhD Student</h3>
+          <p class="center-text">
+            Department of Economic Sciences<br>
+            Indian Institute of Technology, Kanpur<br>
+            Uttar Pradesh, India
+          </p><br>
+          <a href="https://atherhdar.github.io/CV.pdf"><img src="CV.png" style="width:20px;height:20px;"> </a> &nbsp;
+          <a href="mailto:atherhdar@gmail.com"><img src="email.png" style="width:20px;height:20px;"> </a> &nbsp;
+          <a href="https://www.researchgate.net/profile/Ather-Hassan-Dar"><img src="rg.png" style="width:20px;height:20px;"> </a> &nbsp;
+          <a href="https://orcid.org/0000-0001-8938-284X"><img src="orcid.svg" style="width:20px;height:20px;"> </a> &nbsp;
+          <a href="https://scholar.google.com/citations?user=y4zR1C0AAAAJ&hl=en"><img src="scholar.png" style="width:20px;height:20px;"> </a> &nbsp;
+          <a href="https://in.linkedin.com/in/atherhdar"><img src="linkedin.png" style="width:20px;height:18px;"> </a> &nbsp;
+          <a href="https://twitter.com/atherhdar"><img src="twitter.png" style="width:20px;height:20px;"> </a>
+        </center>
       </header>
 
       <section>
         {{ content }}
       </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+      </footer>
     </div>
 
     <script>
