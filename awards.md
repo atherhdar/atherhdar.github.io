@@ -1,6 +1,6 @@
 ### FELLOWSHIPS AND GRANTS
 <ol>
-<li> Travel grant from the INET-YSI for presenting at the $2^{nd}$ Meeting of Young Minds in Frontiers of Economics at Indian Institute of Technology, Bombay (2025)</li>
+<li> Travel grant from the INET-YSI for presenting at the 2^{nd} Meeting of Young Minds in Frontiers of Economics at Indian Institute of Technology, Bombay (2025)</li>
 <li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI (2023) </li>
 <li> Travel grant from the Indian Statistical Institute (ISI), Delhi, for attending the conference at ISI (2022) </li>
 <li>Travel grants from Dean of Academic Affairs, IIT Kanpur for attending national and international conferences</li>
