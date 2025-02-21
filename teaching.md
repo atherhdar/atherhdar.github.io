@@ -21,7 +21,7 @@ Spring 2022-23 </li>
 <li> Applied Statistics and Econometrics
    @NPTEL Online Course     &#8211;&#8211;    Jan21-Apr21 </li>
 <li> Introduction to Economics
- @IIT Kanpur    &#8211;&#8211;    Fall 2021-22</li> <br>
+ @IIT Kanpur    &#8211;&#8211;    Fall 2021-22</li>
  <li>Behavioral & Experimental Economics &#8211;&#8211;
 Summer 2020-21</li>
 <br>
