@@ -1,5 +1,5 @@
 ### JOURNAL PUBLICATIONS
-**<span style="color: lightblue">The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output </span>** (with _Somesh Kumar Mathur_ and _Sila Mishra_, 2021, **_Journal of Quantitative Economics_**, 19(4), 653-701 [ABDC Journal Ranking _**B**_]
+**<span style="color: lightblue">(https://link.springer.com/article/10.1007/s40953-021-00247-x)[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output] </span>** (with _Somesh Kumar Mathur_ and _Sila Mishra_, 2021, **_Journal of Quantitative Economics_**, 19(4), 653-701 [ABDC Journal Ranking _**B**_]
 ### WORKING PAPERS
 **Violence, son preference and fertility: Evidence from India** (with _Debayan Pakrashi_ and _Sounak Thakur_) [**<span style="color: purple">JMP</span>**]
 <details>
