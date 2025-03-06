@@ -2,10 +2,8 @@
 **[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output](https://link.springer.com/article/10.1007/s40953-021-00247-x)** <br>
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics**, 19(4), 653-701 [ABDC Journal Ranking _**B**_]
 ### WORKING PAPERS
-**Violence, son preference and fertility: Evidence from India** [**<span style="color: purple">JMP</span>**] <br>
-with Debayan Pakrashi and Sounak Thakur  
-<kbd style="background-color: #e0e0e0"> <a href="#abstract">Abstract</a> </kbd>  
-<kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd>  
+**[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
+with Debayan Pakrashi and Sounak Thakur <kbd style="background-color: #e0e0e0"> <a href="#abstract">Abstract</a> </kbd>  
 **Civil unrest and learning outcomes in India** (with _Debayan Pakrashi_ and _Sounak Thakur_)
 <details>
 <summary><kbd style="background-color: #e0e0e0"> Abstract</kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178">Paper</a></kbd></summary>
