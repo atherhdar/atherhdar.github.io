@@ -39,11 +39,17 @@ Winter School, _Delhi School of Economics and The Econometric Society, Delhi_ (2
 
 **[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
 with Debayan Pakrashi and Sounak Thakur <br>
-<kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> 
+<kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('conf2')"> Presentations </kbd>  
 <span id="abstract2" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 We study the effect of civil unrest on learning outcomes of schoolgoing children. The context of the study is the Indian province of Jammu and Kashmir, a part of which (namely, the Kashmir valley) witnessed a sudden intensification in violence in 2010. We exploit this plausibly exogenous intensification in a difference-in-differences framework. Exposed children perform poorly on a basic (grade 2-3 level) literacy and numeracy test as compared to their non-exposed counterparts. The effects are fairly substantial in magnitude (about 0.54 σ and 0.37 σ for language and math, respectively), and persist for at least 2 years. All exposed students, including those in higher classes (grades 6-8 and 9-12), are affected. We provide suggestive evidence that reduced school quality and increased psychological stress amongst students may drive these results.  
 </span>
-
+<span id="conf2" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+This paper has been presented at the following conferences:<br>
+Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology Bombay, India_ (2023)
+Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)
+18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)
+17<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2022)
+</span>
 **[Alcohol prohibition, home environment and learning: Evidence From India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902)** <br>
 with Deeksha, Sarani Saha and Sounak Thakur <br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract3')"> Abstract </kbd> 
