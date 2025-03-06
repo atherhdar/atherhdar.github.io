@@ -50,6 +50,7 @@ Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of 
 18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)
 17<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2022)
 </span>
+
 **[Alcohol prohibition, home environment and learning: Evidence From India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902)** <br>
 with Deeksha, Sarani Saha and Sounak Thakur <br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract3')"> Abstract </kbd> 
