@@ -9,7 +9,10 @@
     <link rel="icon" href="{{ site.baseurl }}/weblogo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
     <style>
       body {
         background-color: white;
@@ -31,7 +34,7 @@
         right: 0;
         padding: 5px 15px;
         background-color: #dbe2e6;
-        box-sizing: border-box;
+        box-sizing: border-box; /* Ensures padding is within screen limits */
         z-index: 1000;
       }
       .nav-left {
@@ -54,7 +57,7 @@
         text-decoration: underline;
       }
       header {
-        margin-top: 90px;
+        margin-top: 90px; /* Further increased vertical space */
       }
       /* Responsive Design */
       @media (max-width: 768px) {
@@ -90,11 +93,14 @@
       .dropdown a:hover {
         background-color: #c3c8cc;
       }
-      header {
-        margin-top: 100px;
       }
+      /* Add margin-top to the header to prevent it from overlapping with the navigation bar */
+      header {
+        margin-top: 100px; /* Adjust this value as needed */
+      }
+      /* Ensure there is enough space between the content and the navigation panel */
       section {
-        padding-top: 30px;
+        padding-top: 30px; /* Adjusts the space between the navbar and content */
       }
     </style>
   </head>
@@ -114,7 +120,7 @@
           <a href="{{ site.baseurl }}/research">Research</a>
           <a href="{{ site.baseurl }}/teaching">Teaching</a>
           <a href="{{ site.baseurl }}/awards">Awards</a>
-        </div>
+          </div>
       </nav>
 
       <header>
@@ -161,16 +167,8 @@
           menu.style.display = 'block';
         }
       }
-
-      function toggleAbstract(id) {
-        var abstract = document.getElementById(id);
-        if (abstract.style.display === "none" || abstract.style.display === "") {
-          abstract.style.display = "inline";
-        } else {
-          abstract.style.display = "none";
-        }
-      }
-
+      
+      // Close the dropdown menu when a link is clicked
       document.querySelectorAll('.dropdown a').forEach(function(link) {
         link.addEventListener('click', function() {
           document.getElementById('dropdownMenu').style.display = 'none';
