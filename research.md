@@ -21,7 +21,7 @@ Human behavior is influenced by both biology and social norms. Natural selection
 
 **[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
 with Debayan Pakrashi and Sounak Thakur <br>
-<kbd style="background-color: #9370D8; color: white; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> 
+<kbd style="background-color: #5F9EA0; color: white; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> 
 <span id="abstract2" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 We study the effect of civil unrest on learning outcomes of schoolgoing children. The context of the study is the Indian province of Jammu and Kashmir, a part of which (namely, the Kashmir valley) witnessed a sudden intensification in violence in 2010. We exploit this plausibly exogenous intensification in a difference-in-differences framework. Exposed children perform poorly on a basic (grade 2-3 level) literacy and numeracy test as compared to their non-exposed counterparts. The effects are fairly substantial in magnitude (about 0.54 σ and 0.37 σ for language and math, respectively), and persist for at least 2 years. All exposed students, including those in higher classes (grades 6-8 and 9-12), are affected. We provide suggestive evidence that reduced school quality and increased psychological stress amongst students may drive these results.  
 </span>
