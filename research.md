@@ -45,9 +45,9 @@ We study the effect of civil unrest on learning outcomes of schoolgoing children
 </span>
 <span id="conf2" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 This paper has been presented at the following conferences:<br>
-Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology Bombay, India_ (2023)
-Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)
-18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)
+Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology Bombay, India_ (2023)<br>
+Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)<br>
+18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)<br>
 17<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2022)
 </span>
 
