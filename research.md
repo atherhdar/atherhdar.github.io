@@ -1,7 +1,7 @@
 <script>
   function toggleAbstract(id) {
     var abstract = document.getElementById(id);
-    if (abstract.style.display === "inline" || abstract.style.display === "") {
+    if (abstract.style.display === "" || abstract.style.display === "") {
       abstract.style.display = "inline";
     } else {
       abstract.style.display = "none";
