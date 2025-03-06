@@ -20,9 +20,7 @@ Human behavior is influenced by both biology and social norms. Natural selection
 </span>
 <span id="conf1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 The paper has been presented at the following conferences:
-<ol>
-  <li> Dehli Winter school</li>
-  <li> IIT Bombay</li>
+<ol>  <li> Dehli Winter school</li> <li> IIT Bombay</li>
 </ol>
 </span>
 
