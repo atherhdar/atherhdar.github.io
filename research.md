@@ -31,10 +31,14 @@ Human behavior is influenced by both biology and social norms. Natural selection
 <span id="conf1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 This paper has been presented at the following conferences:<br>
 
-1. 2<sup>nd</sup> Meeting of Young Minds in Frontiers of Economics,  _Indian Institute of Technology Bombay, India_ (2025) <br>
+2<sup>nd</sup> Meeting of Young Minds in Frontiers of Economics,  _Indian Institute of Technology Bombay, India_ (2025) <br>
+
 Reflections on Development Economics Conference, _Presidency University Kolkata, India_ (2024) <br>
+
 7<sup>th</sup> Australian Gender Economics Workshop (AGEW), _University of Technology Sydney, Australia_ (2024) <br>
+
 Asian Meeting of the Econometric Society (AMES-CSW), _Indian Institute of Technology Delhi, India_ (2024) <br>
+
 Winter School, _Delhi School of Economics and The Econometric Society, Delhi_ (2023) <br>
 </span>
 
