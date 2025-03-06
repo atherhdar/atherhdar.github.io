@@ -3,9 +3,6 @@
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics**, 19(4), 653-701 [ABDC Journal Ranking _**B**_]
 ### WORKING PAPERS
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
-with Debayan Pakrashi and Sounak Thakur
-
-**[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur 
 <kbd style="background-color: #e0e0e0; cursor: pointer;" onclick="toggleAbstract()"> Abstract </kbd> <kbd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204">Paper</a></kbd>  
 <span id="abstract-text" style="display: none; background-color: #F1F1F1; padding: 5px; color: #000000;">  
