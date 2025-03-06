@@ -30,8 +30,9 @@ Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: 
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract1')"> Abstract </kbd> <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('conf1')"> Presentations </kbd>  
-<span id="abstract1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
-Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive. 
+<span id="abstract1" class="block" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.<br>
+<kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('citeVSPFSSRN')"> Citation </kbd> 
 </span>
 <span id="conf1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 This paper has been presented at the following conferences:<br>
@@ -57,7 +58,7 @@ Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology
 Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)<br>
 18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)<br>
 17<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2022)
-</span>
+</span> <br>
 <span id="citeCULOSSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Dar, A. H., Pakrashi, D., & Thakur, S. (2023). Civil unrest and learning outcomes in India. Available at SSRN 4541178.
 </span>
@@ -67,7 +68,7 @@ with Deeksha, Sarani Saha and Sounak Thakur <br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract3')"> Abstract </kbd>  
 <span id="abstract3" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males.  <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('citeAPASSRN')"> Citation </kbd>  
-</span>
+</span> <br>
 <span id="citeAPASSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Dar, A. H., Thakur, S., & Saha, S. (2024). Alcohol Prohibition, Home Environment And Learning: Evidence From India. Home Environment And Learning: Evidence From India. Available at SSRN 4958902.
 </span>
