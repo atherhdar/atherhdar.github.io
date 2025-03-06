@@ -14,9 +14,12 @@ with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Econom
 ### WORKING PAPERS
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
-<kbd style="background-color: #9370D8; color: white; cursor: pointer;" onclick="toggleAbstract('abstract1')"> Abstract</kbd> 
+<kbd style="background-color: #9370D8; color: white; cursor: pointer;" onclick="toggleAbstract('abstract1')"> Abstract</kbd> <kbd style="background-color: #9370D8; color: white; cursor: pointer;" onclick="toggleAbstract('citation1')"> Citation</kbd> 
 <span id="abstract1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.  
+</span>
+<span id="citation1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: A DEA, Malmquist and SFA analysis with bad output. Journal of Quantitative Economics, 19, 653-701.
 </span>  
 
 **[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
