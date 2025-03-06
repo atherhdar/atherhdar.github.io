@@ -44,6 +44,7 @@ Winter School, _Delhi School of Economics and The Econometric Society, Delhi_ (2
 <span id="citeVSPFSSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Dar, A. H., Pakrashi, D., & Thakur, S. (2023). Violence, Son Preference and Fertility: Evidence From India. Available at SSRN 4541204.
 </span>
+
 **[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
 with Debayan Pakrashi and Sounak Thakur <br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('conf2')"> Presentations </kbd> <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('citeCULOSSRN')"> Citation </kbd>  
@@ -60,6 +61,7 @@ Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of 
 <span id="citeCULOSSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Dar, A. H., Pakrashi, D., & Thakur, S. (2023). Civil unrest and learning outcomes in India. Available at SSRN 4541178.
 </span>
+
 **[Alcohol prohibition, home environment and learning: Evidence From India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902)** <br>
 with Deeksha, Sarani Saha and Sounak Thakur <br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract3')"> Abstract </kbd> 
@@ -69,6 +71,7 @@ We study the effects of alcohol prohibition on children’s learning outcomes. W
 <span id="citeAPASSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
 Dar, A. H., Thakur, S., & Saha, S. (2024). Alcohol Prohibition, Home Environment And Learning: Evidence From India. Home Environment And Learning: Evidence From India. Available at SSRN 4958902.
 </span>
+
 **Early-life exposure to weather shocks and learning outcomes in India**<br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract4')"> Update </kbd> 
 <span id="abstract4" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
