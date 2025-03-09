@@ -12,7 +12,7 @@
 ### AWARDS
 <ol>
 <li>University Gold Medal for standing first in the B.A (Hons.) Economics examination 2017 by AMU Aligarh</li>
-<li>Muzammil Towel Gold Medal for securing the highest marks in Economics in B.A (Hons.) 2017 exam by AMU Aligarh</li>
+<li>Muzammil Towle Gold Medal for securing the highest marks in Economics in B.A (Hons.) 2017 exam by AMU Aligarh</li>
 <li>Sir Syed Global Scholar Award (SSGSA) for the year 2016-17 by the Aligarh Muslim University (AMU) Alumni Association, North America</li>
 </ol>
 <br>
