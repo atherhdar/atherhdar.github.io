@@ -12,7 +12,7 @@
   function toggleConf(id) {
     var conf = document.getElementById(id);
     if (conf.style.display === "none" || conf.style.display === "") {
-      conf.style.display = "inline";
+      conf.style.display = "block";
     } else {
       conf.style.display = "none";
     }
