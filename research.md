@@ -21,7 +21,7 @@
 ### JOURNAL PUBLICATIONS
 **[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output](https://link.springer.com/article/10.1007/s40953-021-00247-x)** <br>
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics** [ABDC Journal Ranking _**B**_]<br>
-<kbd style="background-color: white; cursor: pointer; border: none; padding: 0;" onclick="toggleConf('citeJQE21')"> Citation </kbd>
+<kbd style="cursor: pointer; border: none; padding: 0;" onclick="toggleConf('citeJQE21')"> Citation </kbd>
 <span id="citeJQE21" style="display: none; background-color: white; padding: 5px;text-align: justify; color: gray;">  
 Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: A DEA, Malmquist and SFA analysis with bad output. Journal of Quantitative Economics, 19, 653-701.
 </span>
