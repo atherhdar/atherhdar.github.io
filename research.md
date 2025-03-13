@@ -48,7 +48,7 @@ with Debayan Pakrashi and Sounak Thakur <br>
 <span id="abstract2" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
 We study the effect of civil unrest on learning outcomes of schoolgoing children. The context of the study is the Indian province of Jammu and Kashmir, a part of which (namely, the Kashmir valley) witnessed a sudden intensification in violence in 2010. We exploit this plausibly exogenous intensification in a difference-in-differences framework. Exposed children perform poorly on a basic (grade 2-3 level) literacy and numeracy test as compared to their non-exposed counterparts. The effects are fairly substantial in magnitude (about 0.54 σ and 0.37 σ for language and math, respectively), and persist for at least 2 years. All exposed students, including those in higher classes (grades 6-8 and 9-12), are affected. We provide suggestive evidence that reduced school quality and increased psychological stress amongst students may drive these results.  
 </span>
-<span id="conf2" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+<span id="conf2" class="panel" style="display: none; padding: 5px;text-align: justify; color: #000000;">  
 This paper has been presented at the following conferences:<br>
 Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology Bombay, India_ (2023)<br>
 Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)<br>
