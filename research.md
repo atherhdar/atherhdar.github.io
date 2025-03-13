@@ -30,11 +30,11 @@ Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: 
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleAbstract('abstract1')"> Abstract </kbd> <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('conf1')"> Presentations </kbd>  
-<span id="abstract1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+<span id="abstract1" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
 Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.
 <kbd style="background-color: #708090; color: white; cursor: pointer;" onclick="toggleConf('citeVSPFSSRN')"> Citation </kbd> 
 </span>
-<span id="conf1" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+<span id="conf1" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
 This paper has been presented at the following conferences:<br>
 2<sup>nd</sup> Meeting of Young Minds in Frontiers of Economics,  _Indian Institute of Technology Bombay, India_ (2025) <br>
 Reflections on Development Economics Conference, _Presidency University Kolkata, India_ (2024) <br>
@@ -42,7 +42,7 @@ Reflections on Development Economics Conference, _Presidency University Kolkata,
 Asian Meeting of the Econometric Society (AMES-CSW), _Indian Institute of Technology Delhi, India_ (2024) <br>
 Winter School, _Delhi School of Economics and The Econometric Society, Delhi_ (2023) <br>
 </span>
-<span id="citeVSPFSSRN" class="panel" style="display: none; background-color: #F1F1F1; padding: 5px;text-align: justify; color: #000000;">  
+<span id="citeVSPFSSRN" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
 Dar, A. H., Pakrashi, D., & Thakur, S. (2023). Violence, Son Preference and Fertility: Evidence From India. Available at SSRN 4541204.
 </span>
 
