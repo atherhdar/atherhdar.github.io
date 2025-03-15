@@ -1,31 +1,24 @@
 ### JOURNAL PUBLICATIONS
 **[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output](https://link.springer.com/article/10.1007/s40953-021-00247-x)** <br>
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics** [ABDC - _**B**_]<br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleConf('citeJQE21')"> Citation </kbd>
-<span id="citeJQE21" class="panel" style="display: none; color: gray; padding: 0px;text-align: justify;">  
-Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: A DEA, Malmquist and SFA analysis with bad output. Journal of Quantitative Economics, 19, 653-701.
-</span>
-<small>[ <a href="#/" onclick="visib('satellite')">Abstract</a> | [Draft](https://atherhdar.github.io/CV) ] </small>
-<div id="satellite" style="display: none; text-align: justify; line-height: 1.2">
- <small>
-Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.
- </small><br><br/></div>
  
 ### WORKING PAPERS
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleAbstract('abstract1')"> Abstract </kbd> <kbd style="background-color: #F8F8FF; color: #708090; border: none;  cursor: pointer;" onclick="toggleConf('conf1')"> Presentations </kbd>  
-<span id="abstract1" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
+<small>[ <a href="#/" onclick="visib('vspf_abs')">Abstract</a> | <a href="#/" onclick="visib('vspf_pres')">Presentations</a>] </small>
+<div id="vspf_abs" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
 Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.
-</span>
-<span id="conf1" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
+ </small></div>
+<div id="vspf_pres" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
 This paper has been presented at the following conferences:<br>
 2<sup>nd</sup> Meeting of Young Minds in Frontiers of Economics,  _Indian Institute of Technology Bombay, India_ (2025) <br>
 Reflections on Development Economics Conference, _Presidency University Kolkata, India_ (2024) <br>
 7<sup>th</sup> Australian Gender Economics Workshop (AGEW), _University of Technology Sydney, Australia_ (2024) <br>
 Asian Meeting of the Econometric Society (AMES-CSW), _Indian Institute of Technology Delhi, India_ (2024) <br>
 Winter School, _Delhi School of Economics and The Econometric Society, Delhi_ (2023) <br>
-</span>
+ </small></div>
 
 **[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
 with Debayan Pakrashi and Sounak Thakur <br>
