@@ -36,7 +36,7 @@ This paper has been presented at the following conferences:<br>
 <li>Asian Meeting of the Econometric Society (AMES), Indian Institute of Technology Bombay, India (2023)<br> </li>
 <li>Research Scholar’s Day, Department of Economic Sciences, Indian Institute of Technology Kanpur, India (2023) </li>
 <li>18<sup>th</sup> Annual Conference on Economic Growth and Development, Indian Statistical Institute, Delhi (2023)</li>
-<li>18<sup>th</sup> Annual Conference on Economic Growth and Development, Indian Statistical Institute, Delhi (2022) </li>
+<li>17<sup>th</sup> Annual Conference on Economic Growth and Development, Indian Statistical Institute, Delhi (2022) </li>
 </ol> 
 </small><br><br/></div>
 
