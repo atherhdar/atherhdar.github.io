@@ -1,23 +1,3 @@
-<script>
-  function toggleAbstract(id) {
-    var abstract = document.getElementById(id);
-    if (abstract.style.display === "none" || abstract.style.display === "") {
-      abstract.style.display = "inline";
-    } else {
-      abstract.style.display = "none";
-    }
-  }
-</script>
-<script>
-  function toggleConf(id) {
-    var conf = document.getElementById(id);
-    if (conf.style.display === "none" || conf.style.display === "") {
-      conf.style.display = "inline";
-    } else {
-      conf.style.display = "none";
-    }
-  }
-</script>
 ### JOURNAL PUBLICATIONS
 **[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output](https://link.springer.com/article/10.1007/s40953-021-00247-x)** <br>
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics** [ABDC - _**B**_]<br>
@@ -25,7 +5,12 @@ with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Econom
 <span id="citeJQE21" class="panel" style="display: none; color: gray; padding: 0px;text-align: justify;">  
 Dar, A. H., Mathur, S. K., & Mishra, S. (2021). The efficiency of Indian banks: A DEA, Malmquist and SFA analysis with bad output. Journal of Quantitative Economics, 19, 653-701.
 </span>
-
+<small>[ <a href="#/" onclick="visib('satellite')">Abstract</a> | [Draft](https://atherhdar.github.io/CV) ] </small>
+<div id="satellite" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+Human behavior is influenced by both biology and social norms. Natural selection favors an increase in the ratio of females to males in times of adversity (war, food shortage, etc.). Is it possible that natural selection may be counteracted by social norms? We present novel evidence from Punjab — an Indian state with intense son-preferring norms rooted in culture. We find that exposure to a violent insurgency (1978-93) leaves the overall sex ratio unchanged and intensifies son-biased fertility stopping behaviors. Since most casualties are male, our results are consistent with exposed parents demanding more sons due to a replacement motive.
+ </small><br><br/></div>
+ 
 ### WORKING PAPERS
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
