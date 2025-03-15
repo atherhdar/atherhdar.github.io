@@ -1,23 +1,3 @@
-<script>
-  function toggleAbstract(id) {
-    var abstract = document.getElementById(id);
-    if (abstract.style.display === "none" || abstract.style.display === "") {
-      abstract.style.display = "inline";
-    } else {
-      abstract.style.display = "none";
-    }
-  }
-</script>
-<script>
-  function toggleConf(id) {
-    var conf = document.getElementById(id);
-    if (conf.style.display === "none" || conf.style.display === "") {
-      conf.style.display = "inline";
-    } else {
-      conf.style.display = "none";
-    }
-  }
-</script>
 ### JOURNAL PUBLICATIONS
 **[The Efficiency of Indian Banks: A DEA, Malmquist and SFA Analysis with Bad Output](https://link.springer.com/article/10.1007/s40953-021-00247-x)** <br>
 with Somesh Kumar Mathur and Sila Mishra, 2021, **Journal of Quantitative Economics** [ABDC - _**B**_]<br>
