@@ -174,16 +174,33 @@
           document.getElementById('dropdownMenu').style.display = 'none';
         });
       });
-
-      function visib(id) {
+    
+    function visib(id) {
     var x = document.getElementById(id);
     if (x.style.display === "none") {
         x.style.display = "block"; // Show the div
     } else {
         x.style.display = "none"; // Hide the div
     }
-}
+    }
 
+    function toggleAbstract(id) {
+    var abstract = document.getElementById(id);
+    if (abstract.style.display === "none" || abstract.style.display === "") {
+      abstract.style.display = "inline";
+    } else {
+      abstract.style.display = "none";
+    }
+    }
+
+  function toggleConf(id) {
+    var conf = document.getElementById(id);
+    if (conf.style.display === "none" || conf.style.display === "") {
+      conf.style.display = "inline";
+    } else {
+      conf.style.display = "none";
+    }
+  }
     </script>
   </body>
 </html>
