@@ -22,38 +22,44 @@ This paper has been presented at the following conferences:<br>
 </ol> 
 </small><br><br/></div>
 
-**[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)**<br>
+**[Civil unrest and learning outcomes in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541178)** <br>
 with Debayan Pakrashi and Sounak Thakur <br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleAbstract('abstract2')"> Abstract </kbd> <kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleConf('conf2')"> Presentations </kbd>   
-<span id="abstract2" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
-We study the effect of civil unrest on learning outcomes of schoolgoing children. The context of the study is the Indian province of Jammu and Kashmir, a part of which (namely, the Kashmir valley) witnessed a sudden intensification in violence in 2010. We exploit this plausibly exogenous intensification in a difference-in-differences framework. Exposed children perform poorly on a basic (grade 2-3 level) literacy and numeracy test as compared to their non-exposed counterparts. The effects are fairly substantial in magnitude (about 0.54 σ and 0.37 σ for language and math, respectively), and persist for at least 2 years. All exposed students, including those in higher classes (grades 6-8 and 9-12), are affected. We provide suggestive evidence that reduced school quality and increased psychological stress amongst students may drive these results.  
-</span>
-<span id="conf2" class="panel" style="display: none; padding: 5px;text-align: justify; color: gray;">  
+<small>[ <a href="#/" onclick="visib('culo_abs')">Abstract</a> | <a href="#/" onclick="visib('culo_pres')">Presentations</a>] </small>
+<div id="culo_abs" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+We study the effect of civil unrest on learning outcomes of schoolgoing children. The context of the study is the Indian province of Jammu and Kashmir, a part of which (namely, the Kashmir valley) witnessed a sudden intensification in violence in 2010. We exploit this plausibly exogenous intensification in a difference-in-differences framework. Exposed children perform poorly on a basic (grade 2-3 level) literacy and numeracy test as compared to their non-exposed counterparts. The effects are fairly substantial in magnitude (about 0.54 σ and 0.37 σ for language and math, respectively), and persist for at least 2 years. All exposed students, including those in higher classes (grades 6-8 and 9-12), are affected. We provide suggestive evidence that reduced school quality and increased psychological stress amongst students may drive these results. 
+ </small><br><br/></div>
+<div id="culo_pres" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
 This paper has been presented at the following conferences:<br>
-Asian Meeting of the Econometric Society (AMES), _Indian Institute of Technology Bombay, India_ (2023)<br>
-Research Scholar’s Day, Department of Economic Sciences, _Indian Institute of Technology Kanpur, India_ (2023)<br>
-18<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2023)<br>
-17<sup>th</sup> Annual Conference on Economic Growth and Development, _Indian Statistical Institute, Delhi_ (2022)
-</span>
+<ol>
+<li>Asian Meeting of the Econometric Society (AMES), Indian Institute of Technology Bombay, India (2023)<br> </li>
+<li>Research Scholar’s Day, Department of Economic Sciences, Indian Institute of Technology Kanpur, India (2023) </li>
+<li>18<sup>th</sup> Annual Conference on Economic Growth and Development, Indian Statistical Institute, Delhi (2023)</li>
+<li>18<sup>th</sup> Annual Conference on Economic Growth and Development, Indian Statistical Institute, Delhi (2022) </li>
+</ol> 
+</small><br><br/></div>
 
 **[Alcohol prohibition, home environment and learning: Evidence From India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902)** <br>
 with Deeksha, Sarani Saha and Sounak Thakur <br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleAbstract('abstract3')"> Abstract </kbd>  
-<span id="abstract3" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
+<small>[ <a href="#/" onclick="visib('bapc_abs')">Abstract</a>] </small>
+<div id="bapc_abs" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
 We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males.  
-</span> 
-
+</small><br><br/></div></span> 
 
 **Early-life exposure to weather shocks and learning outcomes in India**<br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; border: none; cursor: pointer;" onclick="toggleAbstract('abstract4')"> Update </kbd> 
-<span id="abstract4" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
-Draft coming soon. 
-</span>
+<small>[ <a href="#/" onclick="visib('kosi_upd')">Update</a>] </small>
+<div id="kosi_upd" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+Draft coming soon
+</small><br><br/></div></span> 
 
 **The direct and indirect effects of crime on social capital: Evidence from India**<br>
-<kbd style="background-color: #F8F8FF; color: #708090; border: none; cursor: pointer;" onclick="toggleAbstract('abstract5')"> Update </kbd> 
-<span id="abstract5" class="panel" style="display: none; padding: 0px;text-align: justify; color: gray;">  
-Draft coming soon. 
-</span>
+<small>[ <a href="#/" onclick="visib('crimesc_upd')">Update</a>] </small>
+<div id="crimesc_upd" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+Draft coming soon
+</small><br><br/></div></span> 
 
 
