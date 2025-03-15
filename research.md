@@ -48,7 +48,7 @@ with Deeksha, Sarani Saha and Sounak Thakur <br>
 We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males.  
 </small><br><br/></div>
 
-**[<span style="color: #0000FF">Early-life exposure to weather shocks and learning outcomes in India</span>]**<br>
+**Early-life exposure to weather shocks and learning outcomes in India**<br>
 <small>[<a href="#/" onclick="visib('kosi_upd')">Update</a>] </small>
 <div id="kosi_upd" style="display: none; text-align: justify; line-height: 1.2">
  <small>
