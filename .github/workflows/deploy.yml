@@ -1,0 +1,28 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change this if your main branch is different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private repository
+        uses: actions/checkout@v4
+
+      - name: Build the website
+        run: |
+          # Add build steps if needed, for example:
+          # npm install && npm run build
+          mkdir public_repo
+          cp -r * public_repo/
+
+      - name: Deploy to Public Repository
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./public_repo
+          external_repository: atherhdar1/atherhdar1.github.io
+          branch: gh-pages
