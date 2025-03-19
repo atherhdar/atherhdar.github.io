@@ -59,7 +59,8 @@ Draft coming soon
 </small><br><br/></div> 
 
 ### WORK IN PROGRESS
-**Informal financial institutions and crime: Evidence from ROSCAs in India (with Debayan Pakrashi Sounak Thakur)**
+**Informal financial institutions and crime: Evidence from ROSCAs in India** <br>
+with Debayan Pakrashi and Sounak Thakur
 
 **Does exposure to conflict during the formative years of life impact the ability to work in adulthood? Evidence from India**
 
