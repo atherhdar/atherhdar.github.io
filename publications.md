@@ -3,6 +3,8 @@
   <li>
     <b><a href="https://doi.org/10.1016/j.jenvman.2025.125572">Early-life exposure to weather shocks and learning outcomes in India</a> 
     </b> <br>
+    2025, <b>Journal of Environmental Management</b> 
+    [ABDC - <i><b>A</b></i>; ABS - <i><b>3</b></i>]
 <small>[<a href="#/" onclick="visib('kosi_abs')">Abstract</a>] </small>
 <div id="kosi_abs" style="display: none; text-align: justify; line-height: 1.2">
  <small>
