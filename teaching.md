@@ -10,6 +10,7 @@
 <li> Indian Economy &#8211;&#8211; Fall 2025-26 &#8211;&#8211; UPES</li>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
+
 **Teaching Assistant**
 <li> Game Theory &#8211;&#8211;   Fall 2024-25 &#8211;&#8211; IIT Kanpur</li>
 <li> Program Evaluation &#8211;&#8211;    Fall 2023-24 &#8211;&#8211; IIT Kanpur (e-Masters)</li>
