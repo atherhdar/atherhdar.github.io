@@ -1,6 +1,7 @@
 ### WORKING PAPERS
-**The direct and indirect effects of crime on social capital: Evidence from India** </br>
- _revision requested_ at _B.E. Journal of Economic Analysis and Policy_ </b> 
+**The direct and indirect effects of crime on social capital: Evidence from India**
+</b> <br>
+_revision requested_ at _B.E. Journal of Economic Analysis and Policy_ </b> 
     [ABDC - <i><b>A</b></i>; ABS - <i><b>3</b></i>] <br>
 <small>[<a href="#/" onclick="visib('crimesc_abs')">Abstract</a>] </small>
 <div id="crimesc_abs" style="display: none; text-align: justify; line-height: 1.2">
