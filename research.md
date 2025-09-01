@@ -1,4 +1,11 @@
 ### WORKING PAPERS
+**The direct and indirect effects of crime on social capital: Evidence from India**<br>
+<small>[<a href="#/" onclick="visib('crimesc_abs')">Abstract</a>] </small>
+<div id="crimesc_abs" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+This paper studies the effect of crime on a household’s social capital. Using longitudinal information on households’ social capital and crime victimization from India, we address identification concerns due to endogenous sorting and moving. We distinguish between the direct effect on victims and the indirect effect to society due to the risk of victimization. We find that direct crime victimization leads to significant deterioration in households’ institutional trust (0.056σ) but increases their social networks (0.065σ) and civic engagement (0.072σ). We find similar indirect effects due to the risk of victimization. Households’ expectations and their media exposure plausibly drive the results. The results are not explained by omitted variables or reverse causality. Our results suggest that as households lose trust in institutions, they expand their own networks and become socially more connected plausibly to insure themselves from future victimization.
+</small><br><br/></div>
+
 **[Violence, son preference and fertility: Evidence from India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4541204)** [**<span style="color: purple">JMP</span>**] <br>
 with Debayan Pakrashi and Sounak Thakur<br>
 <small>[<a href="#/" onclick="visib('vspf_abs')">Abstract</a> | <a href="#/" onclick="visib('vspf_pres')">Presentations</a>] </small>
@@ -42,14 +49,6 @@ with Deeksha, Sarani Saha and Sounak Thakur <br>
 <div id="bapc_abs" style="display: none; text-align: justify; line-height: 1.2">
  <small>
 We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males.  
-</small><br><br/></div>
-
-
-**The direct and indirect effects of crime on social capital: Evidence from India**<br>
-<small>[<a href="#/" onclick="visib('crimesc_upd')">Update</a>] </small>
-<div id="crimesc_upd" style="display: none; text-align: justify; line-height: 1.2">
- <small>
-Draft coming soon
 </small><br><br/></div> 
 
 ### WORK IN PROGRESS
