@@ -121,11 +121,10 @@ kbd {
 }
 
 header {
-  width: 450px;
+  width: 300px;
   float: left;
-  background-color: #f0f4f8;
+  /*background-color: #f0f4f8;
   position: fixed;
-  left: 0.1;
   top: 0; /* Ensure the header starts at the top */
   bottom: 0; /* Ensure the header spans the full height of the viewport */
   -webkit-font-smoothing: subpixel-antialiased;
