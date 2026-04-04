@@ -3,7 +3,7 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #fff;
+  background-color: #f0f4f8;
   padding: 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000000;
