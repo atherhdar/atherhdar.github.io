@@ -8,6 +8,9 @@
 **Instructor**
 <li> Mathematical Economics &#8211;&#8211; Fall 2025-26 &#8211;&#8211; UPES</li>
 <li> Indian Economy &#8211;&#8211; Fall 2025-26 &#8211;&#8211; UPES</li>
+<li> Public Finance &#8211;&#8211; Spring 2025-26 &#8211;&#8211; UPES</li>
+<li> Basic Statistics &#8211;&#8211; Spring 2025-26 &#8211;&#8211; UPES</li>
+<li> Applied Econometrics &#8211;&#8211; Spring 2025-26 &#8211;&#8211; UPES</li>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
