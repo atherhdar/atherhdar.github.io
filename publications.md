@@ -6,7 +6,7 @@
     2025, <b>Journal of Environmental Management</b> 
     [ABDC - <i><b>A</b></i>; ABS - <i><b>3</b></i>] <br>
     
-<small>[<a href="#/" onclick="visib('kosi_abs')">Abstract</a>] </small> <small>[<a href="#/" onclick="visib('CV.pdf')">Ungated Version</a>] </small>
+<small>[<a href="#/" onclick="visib('kosi_abs')">Abstract</a>] </small> <small>[<a href="CV.pdf">Ungated Version</a>] </small>
 
 <div id="kosi_abs" style="display: none; text-align: justify; line-height: 1.2">
  <small>
