@@ -6,7 +6,8 @@
     2025, <b>Journal of Environmental Management</b> 
     [ABDC - <i><b>A</b></i>; ABS - <i><b>3</b></i>] <br>
     
-<small>[<a href="#/" onclick="visib('kosi_abs')">Abstract</a>] </small>
+<small>[<a href="#/" onclick="visib('kosi_abs')">Abstract</a>] </small> <small>[<a href="#/" onclick="visib('CV.pdf')">Ungated Version</a>] </small>
+
 <div id="kosi_abs" style="display: none; text-align: justify; line-height: 1.2">
  <small>
 We study the medium-term effects of early-life exposure to weather shocks on children's learning outcomes in India. Using spatial and cohort variation in exposure to a plausibly exogenous flood within difference-in-differences and event study frameworks, we find that children exposed to an unanticipated and extreme flood in early life score 0.08 and 0.06 standard deviations lower in reading and math tests, respectively, five to six years after exposure. Further, using an event study design, we find that the timing of exposure matters, with significant negative effects on cognitive development observed only for exposure just prior to school-start age (i.e., ages four and five), while exposure at younger ages shows no significant impact. The results are driven by children from lower socioeconomic backgrounds, suggesting sudden and persistent income shock as an underlying mechanism. Our findings provide fresh evidence on the extent to which the timing of exposure matters and have important policy implications.
