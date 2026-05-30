@@ -124,6 +124,8 @@ header {
   width: 300px;
   float: left;
   background-color: #f0f4f8;
+  height: 100vh;
+  left: 0;
   position: fixed;
   top: 0; /* Ensure the header starts at the top */
   bottom: 0; /* Ensure the header spans the full height of the viewport */
