@@ -1,6 +1,21 @@
 ### JOURNAL PUBLICATIONS
 <ol>
   <li>
+    <b><a href="https://link.springer.com/article/10.1007/s11150-026-09858-w">Alcohol prohibition, social environment and learning: Evidence from India</a> 
+    </b> <br>
+    2025, <b>Review of Economics of the Household</b> 
+    [ABDC - <i><b>A</b></i>] <br>
+    
+<small>[<a href="#/" onclick="visib('reho_alcohol_abs')">Abstract</a>] </small> <small>[<a href="reho_paper.pdf">Published Version</a>] </small> <small>[<a href="reho_supp_app.pdf">Supplementary Material</a>] </small>
+
+<div id="reho_alcohol_abs" style="display: none; text-align: justify; line-height: 1.2">
+ <small>
+We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved learning outcomes of school-going children in Bihar. The results are plausibly driven by improvements in the child’s social environment—lower neighborhood crime and lower domestic violence—induced by the alcohol ban.
+</small><br><br/></div> 
+  </li>
+  <br>
+  
+  <li>
     <b><a href="https://doi.org/10.1016/j.jenvman.2025.125572">Early-life exposure to weather shocks and learning outcomes in India</a> 
     </b> <br>
     2025, <b>Journal of Environmental Management</b> 
