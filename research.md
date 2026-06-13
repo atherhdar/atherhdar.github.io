@@ -46,14 +46,6 @@ This paper has been presented at the following conferences:<br>
 </ol> 
 </small><br><br/></div>
 
-**[Alcohol prohibition, home environment and learning: Evidence From India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958902)** <br>
-with Deeksha, Sarani Saha and Sounak Thakur <br>
-<small>[<a href="#/" onclick="visib('bapc_abs')">Abstract</a>] </small>
-<div id="bapc_abs" style="display: none; text-align: justify; line-height: 1.2">
- <small>
-We study the effects of alcohol prohibition on children’s learning outcomes. We exploit a plausibly exogenous change in the availability of alcohol in the Indian state of Bihar, which implemented a state-wide ban on the manufacturing, sale, transport and consumption of alcohol. Using a difference-in-differences framework, we find that the ban reduced alcohol consumption and improved the learning outcomes of school-going children in Bihar. The results are plausibly driven by lower domestic violence and improvements in the home environment induced by reduced alcohol consumption on the part of adult males.  
-</small><br><br/></div> 
-
 ### WORK IN PROGRESS
 **Informal financial institutions and crime: Evidence from ROSCAs in India** <br>
 with Debayan Pakrashi and Sounak Thakur
