@@ -3,7 +3,7 @@
   <li>
     <b><a href="https://link.springer.com/article/10.1007/s11150-026-09858-w">Alcohol prohibition, social environment and learning: Evidence from India</a> 
     </b> <br>
-    2025, <b>Review of Economics of the Household</b> 
+    2026, <b>Review of Economics of the Household</b> 
     [ABDC - <i><b>A</b></i>] <br>
     
 <small>[<a href="#/" onclick="visib('reho_alcohol_abs')">Abstract</a>] </small> <small>[<a href="reho_paper.pdf">Published Version</a>] </small> <small>[<a href="reho_supp_app.pdf">Supplementary Material</a>] </small>
